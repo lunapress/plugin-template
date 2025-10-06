@@ -1,0 +1,61 @@
+{
+    "name": "onepix/wp-plugin-template",
+    "autoload": {
+        "psr-4": {
+            "Onepix\\WpPluginTemplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "onepix"
+        },
+        {
+            "name": "0zd0"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/0zd0/wp-core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/0zd0/wp-frontend"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/0zd0/wp-contracts"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/0zd0/wp-frontend-contracts"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "onepix/wp-core": "dev-main",
+        "onepix/wp-frontend": "dev-main"
+    },
+    "require-dev": {
+        "onepix/wp-static-analysis": "^1",
+        "roots/wordpress": "^6.8.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "roots/wordpress-core-installer": true
+        }
+    },
+    "scripts": {
+        "fix:phpcs": "wp-static-analysis phpcbf",
+
+        "check:phpcs": "wp-static-analysis phpcs",
+        "check:psalm": "wp-static-analysis psalm -- --no-cache",
+        "check": [
+            "@check:phpcs",
+            "@check:psalm"
+        ]
+    }
+}
