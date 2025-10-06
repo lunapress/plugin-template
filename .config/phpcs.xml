@@ -3,4 +3,5 @@
     <rule ref="../vendor/onepix/wp-coding-standards/WpOnepixStandard/ruleset.xml" />
 
     <file>../src</file>
+    <file>../plugin.php</file>
 </ruleset>

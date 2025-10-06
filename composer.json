@@ -39,8 +39,7 @@
         "onepix/wp-frontend": "dev-main"
     },
     "require-dev": {
-        "onepix/wp-static-analysis": "^1",
-        "roots/wordpress": "^6.8.3"
+        "onepix/wp-static-analysis": "^1"
     },
     "config": {
         "allow-plugins": {

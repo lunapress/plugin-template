@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c6f91766abda2dda7b9c0b9b0eb74fe",
+    "content-hash": "f75e589819a3877eee23eeddfb4bf694",
     "packages": [
         {
             "name": "laravel/serializable-closure",
@@ -73,12 +73,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/0zd0/wp-contracts.git",
-                "reference": "5f9b77e606a3047386fc0e1d1b43ebed19d792d5"
+                "reference": "a55eb3ffc3ee78256bd59ab2f38d85bfa9d8ee55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0zd0/wp-contracts/zipball/5f9b77e606a3047386fc0e1d1b43ebed19d792d5",
-                "reference": "5f9b77e606a3047386fc0e1d1b43ebed19d792d5",
+                "url": "https://api.github.com/repos/0zd0/wp-contracts/zipball/a55eb3ffc3ee78256bd59ab2f38d85bfa9d8ee55",
+                "reference": "a55eb3ffc3ee78256bd59ab2f38d85bfa9d8ee55",
                 "shasum": ""
             },
             "require": {
@@ -121,7 +121,7 @@
                 "source": "https://github.com/0zd0/wp-contracts/tree/main",
                 "issues": "https://github.com/0zd0/wp-contracts/issues"
             },
-            "time": "2025-10-06T00:00:41+00:00"
+            "time": "2025-10-06T02:56:18+00:00"
         },
         {
             "name": "onepix/wp-core",
@@ -129,12 +129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/0zd0/wp-core.git",
-                "reference": "73e4bddb1b1e20a0009f6d2a2c8e8811e55ad823"
+                "reference": "90e64582058dce7a1773e90c01007eda69c346ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0zd0/wp-core/zipball/73e4bddb1b1e20a0009f6d2a2c8e8811e55ad823",
-                "reference": "73e4bddb1b1e20a0009f6d2a2c8e8811e55ad823",
+                "url": "https://api.github.com/repos/0zd0/wp-core/zipball/90e64582058dce7a1773e90c01007eda69c346ef",
+                "reference": "90e64582058dce7a1773e90c01007eda69c346ef",
                 "shasum": ""
             },
             "require": {
@@ -180,7 +180,7 @@
                 "source": "https://github.com/0zd0/wp-core/tree/main",
                 "issues": "https://github.com/0zd0/wp-core/issues"
             },
-            "time": "2025-10-06T00:06:09+00:00"
+            "time": "2025-10-06T03:29:15+00:00"
         },
         {
             "name": "onepix/wp-frontend",
@@ -188,12 +188,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/0zd0/wp-frontend.git",
-                "reference": "62a64666640b2a7e3118f9617f20ba4168525391"
+                "reference": "b0da9b0e8df4e03d5ac4ad258d38a60670f25516"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0zd0/wp-frontend/zipball/62a64666640b2a7e3118f9617f20ba4168525391",
-                "reference": "62a64666640b2a7e3118f9617f20ba4168525391",
+                "url": "https://api.github.com/repos/0zd0/wp-frontend/zipball/b0da9b0e8df4e03d5ac4ad258d38a60670f25516",
+                "reference": "b0da9b0e8df4e03d5ac4ad258d38a60670f25516",
                 "shasum": ""
             },
             "require": {
@@ -242,7 +242,7 @@
                 "source": "https://github.com/0zd0/wp-frontend/tree/main",
                 "issues": "https://github.com/0zd0/wp-frontend/issues"
             },
-            "time": "2025-10-06T00:01:46+00:00"
+            "time": "2025-10-06T03:21:08+00:00"
         },
         {
             "name": "onepix/wp-frontend-contracts",
@@ -250,12 +250,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/0zd0/wp-frontend-contracts.git",
-                "reference": "3dc4bf865e14c1a7732fa1b928afe8552e1d3480"
+                "reference": "a900eec3acedf6b6d3f617802ec2911bcaba65a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0zd0/wp-frontend-contracts/zipball/3dc4bf865e14c1a7732fa1b928afe8552e1d3480",
-                "reference": "3dc4bf865e14c1a7732fa1b928afe8552e1d3480",
+                "url": "https://api.github.com/repos/0zd0/wp-frontend-contracts/zipball/a900eec3acedf6b6d3f617802ec2911bcaba65a5",
+                "reference": "a900eec3acedf6b6d3f617802ec2911bcaba65a5",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +299,7 @@
                 "source": "https://github.com/0zd0/wp-frontend-contracts/tree/main",
                 "issues": "https://github.com/0zd0/wp-frontend-contracts/issues"
             },
-            "time": "2025-10-05T07:48:34+00:00"
+            "time": "2025-10-06T03:18:47+00:00"
         },
         {
             "name": "php-di/invoker",
@@ -3299,187 +3299,6 @@
                 "source": "https://github.com/revoltphp/event-loop/tree/v1.0.7"
             },
             "time": "2025-01-25T19:27:39+00:00"
-        },
-        {
-            "name": "roots/wordpress",
-            "version": "6.8.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/roots/wordpress.git",
-                "reference": "29e4eb49b2f4c591e39d4eb6705a27cf1ea40e45"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/roots/wordpress/zipball/29e4eb49b2f4c591e39d4eb6705a27cf1ea40e45",
-                "reference": "29e4eb49b2f4c591e39d4eb6705a27cf1ea40e45",
-                "shasum": ""
-            },
-            "require": {
-                "roots/wordpress-core-installer": "^3.0",
-                "roots/wordpress-no-content": "self.version"
-            },
-            "type": "metapackage",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT",
-                "GPL-2.0-or-later"
-            ],
-            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
-            "homepage": "https://wordpress.org/",
-            "keywords": [
-                "blog",
-                "cms",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.8.3"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/roots",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-05-23T18:54:22+00:00"
-        },
-        {
-            "name": "roots/wordpress-core-installer",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/roots/wordpress-core-installer.git",
-                "reference": "714d2e2a9e523f6e7bde4810d5a04aedf0ec217f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/roots/wordpress-core-installer/zipball/714d2e2a9e523f6e7bde4810d5a04aedf0ec217f",
-                "reference": "714d2e2a9e523f6e7bde4810d5a04aedf0ec217f",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0 || ^2.0",
-                "php": ">=7.2.24"
-            },
-            "conflict": {
-                "composer/installers": "<1.0.6"
-            },
-            "replace": {
-                "johnpbloch/wordpress-core-installer": "*"
-            },
-            "require-dev": {
-                "composer/composer": "^1.0 || ^2.0",
-                "phpunit/phpunit": "^8.5"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Roots\\Composer\\WordPressCorePlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Roots\\Composer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "John P. Bloch",
-                    "email": "me@johnpbloch.com"
-                },
-                {
-                    "name": "Roots",
-                    "email": "team@roots.io"
-                }
-            ],
-            "description": "A Composer custom installer to handle installing WordPress as a dependency",
-            "keywords": [
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/roots/wordpress-core-installer/issues",
-                "source": "https://github.com/roots/wordpress-core-installer/tree/3.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/roots",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-05-23T18:47:25+00:00"
-        },
-        {
-            "name": "roots/wordpress-no-content",
-            "version": "6.8.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.8.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.8.3-no-content.zip",
-                "reference": "6.8.3",
-                "shasum": "2c34ba506afd8061d96cde50b2c92f109c10d2c8"
-            },
-            "require": {
-                "php": ">= 7.2.24"
-            },
-            "provide": {
-                "wordpress/core-implementation": "6.8.3"
-            },
-            "suggest": {
-                "ext-curl": "Performs remote request operations.",
-                "ext-dom": "Used to validate Text Widget content and to automatically configuring IIS7+.",
-                "ext-exif": "Works with metadata stored in images.",
-                "ext-fileinfo": "Used to detect mimetype of file uploads.",
-                "ext-hash": "Used for hashing, including passwords and update packages.",
-                "ext-imagick": "Provides better image quality for media uploads.",
-                "ext-json": "Used for communications with other servers.",
-                "ext-libsodium": "Validates Signatures and provides securely random bytes.",
-                "ext-mbstring": "Used to properly handle UTF8 text.",
-                "ext-mysqli": "Connects to MySQL for database interactions.",
-                "ext-openssl": "Permits SSL-based connections to other hosts.",
-                "ext-pcre": "Increases performance of pattern matching in code searches.",
-                "ext-xml": "Used for XML parsing, such as from a third-party site.",
-                "ext-zip": "Used for decompressing Plugins, Themes, and WordPress update packages."
-            },
-            "type": "wordpress-core",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "WordPress Community",
-                    "homepage": "https://wordpress.org/about/"
-                }
-            ],
-            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
-            "homepage": "https://wordpress.org/",
-            "keywords": [
-                "blog",
-                "cms",
-                "wordpress"
-            ],
-            "support": {
-                "docs": "https://developer.wordpress.org/",
-                "forum": "https://wordpress.org/support/",
-                "irc": "irc://irc.freenode.net/wordpress",
-                "issues": "https://core.trac.wordpress.org/",
-                "rss": "https://wordpress.org/news/feed/",
-                "source": "https://core.trac.wordpress.org/browser",
-                "wiki": "https://codex.wordpress.org/"
-            },
-            "funding": [
-                {
-                    "url": "https://wordpressfoundation.org/donate/",
-                    "type": "other"
-                }
-            ],
-            "time": "2025-09-30T18:16:31+00:00"
         },
         {
             "name": "sebastian/diff",

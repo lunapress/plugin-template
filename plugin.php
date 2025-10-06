@@ -1,0 +1,23 @@
+<?php
+/**
+ * Plugin Name: Wp Plugin Template
+ * Description:
+ * Version: 1.0
+ * Author: Onepix
+ * Author URI: https://onepix.net/
+ * Requires at least: 6.8.3
+ * Tested up to: 6.8.3
+ * Requires PHP: 8.3
+ * Text Domain: wp-plugin-template
+ * Domain Path: /languages/
+ * Requires Plugins:
+ *
+ * @package Onepix\WpPluginTemplate
+ */
+declare(strict_types=1);
+
+use Onepix\WpPluginTemplate\TemplatePlugin;
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+TemplatePlugin::getInstance()->boot();
