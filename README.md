@@ -1,1 +1,1 @@
-# wp-plugin
+# LunaPress Plugin Template

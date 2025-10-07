@@ -1,57 +1,41 @@
 {
-    "name": "onepix/wp-plugin-template",
+    "name": "lunapress/plugin-template",
     "autoload": {
         "psr-4": {
-            "Onepix\\WpPluginTemplate\\": "src/"
+            "LunaPress\\PluginTemplate\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "onepix"
+            "name": "Onepix",
+            "homepage": "https://onepix.net",
+            "role": "Company"
         },
         {
-            "name": "0zd0"
+            "name": "0zd0",
+            "role": "Lead Developer",
+            "homepage": "https://github.com/0zd0"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/0zd0/wp-core"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/0zd0/wp-frontend"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/0zd0/wp-contracts"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/0zd0/wp-frontend-contracts"
-        }
-    ],
     "require": {
         "php": "^8.3",
-        "onepix/wp-core": "dev-main",
-        "onepix/wp-frontend": "dev-main"
+        "lunapress/core": "@dev",
+        "lunapress/frontend": "@dev"
     },
     "require-dev": {
-        "onepix/wp-static-analysis": "^1"
+        "lunapress/static-analysis": "@dev"
     },
     "config": {
         "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "roots/wordpress-core-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
     "scripts": {
-        "fix:phpcs": "wp-static-analysis phpcbf",
-
-        "check:phpcs": "wp-static-analysis phpcs",
-        "check:psalm": "wp-static-analysis psalm -- --no-cache",
+        "fix:phpcs": "lunapress-static-analysis phpcbf",
+        "check:phpcs": "lunapress-static-analysis phpcs",
+        "check:psalm": "lunapress-static-analysis psalm -- --no-cache",
         "check": [
             "@check:phpcs",
             "@check:psalm"

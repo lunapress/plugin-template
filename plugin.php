@@ -3,7 +3,7 @@
  * Plugin Name: Wp Plugin Template
  * Description:
  * Version: 1.0
- * Author: Onepix
+ * Author: LunaPress
  * Author URI: https://onepix.net/
  * Requires at least: 6.8.3
  * Tested up to: 6.8.3

@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Onepix\WpPluginTemplate\Modules\Test;
+namespace LunaPress\PluginTemplate\Modules\Test;
 
 use Onepix\WpContracts\Core\Module\IModule;
-use Onepix\WpPluginTemplate\Modules\Test\Subscribers\ConfigTestSubscriber;
+use LunaPress\PluginTemplate\Modules\Test\Subscribers\ConfigTestSubscriber;
 
 defined('ABSPATH') || exit;
 

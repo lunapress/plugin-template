@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Onepix\WpPluginTemplate\Modules\Test\Subscribers;
+namespace LunaPress\PluginTemplate\Modules\Test\Subscribers;
 
 use Onepix\WpContracts\Core\Plugin\IConfig;
 use Onepix\WpContracts\Core\Plugin\IContext;
