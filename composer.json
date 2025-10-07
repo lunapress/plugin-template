@@ -22,7 +22,7 @@
     "require": {
         "php": "^8.3",
         "lunapress/core": "@dev",
-        "lunapress/frontend": "@dev"
+        "lunapress/frontend-kit": "@dev"
     },
     "require-dev": {
         "lunapress/static-analysis": "@dev"

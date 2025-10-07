@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate\Modules\Test;
 
-use Onepix\WpContracts\Core\Module\IModule;
+use LunaPress\CoreContracts\Module\IModule;
 use LunaPress\PluginTemplate\Modules\Test\Subscribers\ConfigTestSubscriber;
 
 defined('ABSPATH') || exit;

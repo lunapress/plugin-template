@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate\Modules\Test\Subscribers;
 
-use Onepix\WpContracts\Core\Plugin\IConfig;
-use Onepix\WpContracts\Core\Plugin\IContext;
-use Onepix\WpContracts\Hook\ActionSubscriber;
-use Onepix\WpCore\Hook\Hook;
-use Onepix\WpFrontendContracts\Vite\ViteConfig;
+use LunaPress\CoreContracts\Plugin\IConfig;
+use LunaPress\CoreContracts\Plugin\IContext;
+use LunaPress\CoreContracts\Hook\ActionSubscriber;
+use LunaPress\Core\Hook\Hook;
+use LunaPress\FrontendContracts\Vite\IViteConfig;
 
 defined('ABSPATH') || exit;
 
@@ -17,7 +17,7 @@ final readonly class ConfigTestSubscriber implements ActionSubscriber
     public function __construct(
         private IContext $context,
         private IConfig $config,
-        private ViteConfig $viteConfig,
+        private IViteConfig $viteConfig,
     ) {
     }
 

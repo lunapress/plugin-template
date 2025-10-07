@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate;
 
-use Onepix\WpCore\Core\Plugin\AbstractPlugin;
-use Onepix\WpFrontend\FrontendPackage;
+use LunaPress\Core\Plugin\AbstractPlugin;
+use LunaPress\Frontend\FrontendPackage;
 use LunaPress\PluginTemplate\Modules\Test\TestModule;
 
 defined('ABSPATH') || exit;

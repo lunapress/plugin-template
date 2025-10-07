@@ -16,7 +16,7 @@
  */
 declare(strict_types=1);
 
-use Onepix\WpPluginTemplate\TemplatePlugin;
+use LunaPress\PluginTemplate\TemplatePlugin;
 
 require_once __DIR__ . '/vendor/autoload.php';
 

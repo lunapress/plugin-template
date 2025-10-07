@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f75e589819a3877eee23eeddfb4bf694",
+    "content-hash": "62cdee82bc25223c0dad9faba2874f3d",
     "packages": [
         {
             "name": "laravel/serializable-closure",
@@ -68,238 +68,327 @@
             "time": "2025-09-22T17:29:40+00:00"
         },
         {
-            "name": "onepix/wp-contracts",
+            "name": "lunapress/core",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/0zd0/wp-contracts.git",
-                "reference": "a55eb3ffc3ee78256bd59ab2f38d85bfa9d8ee55"
+                "url": "https://github.com/lunapress/core.git",
+                "reference": "8b11baf2b0a0976c2dbcb6646f0aa158349a2782"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0zd0/wp-contracts/zipball/a55eb3ffc3ee78256bd59ab2f38d85bfa9d8ee55",
-                "reference": "a55eb3ffc3ee78256bd59ab2f38d85bfa9d8ee55",
+                "url": "https://api.github.com/repos/lunapress/core/zipball/8b11baf2b0a0976c2dbcb6646f0aa158349a2782",
+                "reference": "8b11baf2b0a0976c2dbcb6646f0aa158349a2782",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.3"
-            },
-            "require-dev": {
-                "onepix/wp-static-analysis": "^1"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Onepix\\WpContracts\\": "src/"
-                }
-            },
-            "scripts": {
-                "fix:phpcs": [
-                    "wp-static-analysis phpcbf"
-                ],
-                "check:phpcs": [
-                    "wp-static-analysis phpcs"
-                ],
-                "check:psalm": [
-                    "wp-static-analysis psalm -- --no-cache"
-                ],
-                "check": [
-                    "@check:phpcs",
-                    "@check:psalm"
-                ]
-            },
-            "authors": [
-                {
-                    "name": "onepix"
-                },
-                {
-                    "name": "0zd0"
-                }
-            ],
-            "support": {
-                "source": "https://github.com/0zd0/wp-contracts/tree/main",
-                "issues": "https://github.com/0zd0/wp-contracts/issues"
-            },
-            "time": "2025-10-06T02:56:18+00:00"
-        },
-        {
-            "name": "onepix/wp-core",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/0zd0/wp-core.git",
-                "reference": "90e64582058dce7a1773e90c01007eda69c346ef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/0zd0/wp-core/zipball/90e64582058dce7a1773e90c01007eda69c346ef",
-                "reference": "90e64582058dce7a1773e90c01007eda69c346ef",
-                "shasum": ""
-            },
-            "require": {
-                "onepix/wp-contracts": "dev-main",
+                "lunapress/core-contracts": "@dev",
                 "php": "^8.3",
                 "php-di/php-di": "^7.1"
             },
-            "require-dev": {
-                "onepix/wp-static-analysis": "^1",
-                "roots/wordpress": "^6.8.3"
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LunaPress\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Onepix",
+                    "homepage": "https://onepix.net",
+                    "role": "Company"
+                },
+                {
+                    "name": "0zd0",
+                    "homepage": "https://github.com/0zd0",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Core for plugins and wrappers",
+            "support": {
+                "issues": "https://github.com/lunapress/core/issues",
+                "source": "https://github.com/lunapress/core/tree/main"
+            },
+            "time": "2025-10-07T21:37:19+00:00"
+        },
+        {
+            "name": "lunapress/core-contracts",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lunapress/core-contracts.git",
+                "reference": "bf056e3c82981a6d1fa6a2044a5a34ff3b4d36f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lunapress/core-contracts/zipball/bf056e3c82981a6d1fa6a2044a5a34ff3b4d36f6",
+                "reference": "bf056e3c82981a6d1fa6a2044a5a34ff3b4d36f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.3"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\WpCore\\": "src/"
+                    "LunaPress\\CoreContracts\\": "src/"
                 }
             },
-            "scripts": {
-                "fix:phpcs": [
-                    "wp-static-analysis phpcbf"
-                ],
-                "check:phpcs": [
-                    "wp-static-analysis phpcs"
-                ],
-                "check:psalm": [
-                    "wp-static-analysis psalm -- --no-cache"
-                ],
-                "check": [
-                    "@check:phpcs",
-                    "@check:psalm"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
-                    "name": "onepix"
+                    "name": "Onepix",
+                    "homepage": "https://onepix.net",
+                    "role": "Company"
                 },
                 {
-                    "name": "0zd0"
+                    "name": "0zd0",
+                    "homepage": "https://github.com/0zd0",
+                    "role": "Lead Developer"
                 }
             ],
+            "description": "Contracts for lunapress/core",
             "support": {
-                "source": "https://github.com/0zd0/wp-core/tree/main",
-                "issues": "https://github.com/0zd0/wp-core/issues"
+                "issues": "https://github.com/lunapress/core-contracts/issues",
+                "source": "https://github.com/lunapress/core-contracts/tree/main"
             },
-            "time": "2025-10-06T03:29:15+00:00"
+            "time": "2025-10-07T21:28:24+00:00"
         },
         {
-            "name": "onepix/wp-frontend",
+            "name": "lunapress/frontend",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/0zd0/wp-frontend.git",
-                "reference": "b0da9b0e8df4e03d5ac4ad258d38a60670f25516"
+                "url": "https://github.com/lunapress/frontend.git",
+                "reference": "7954f2eb53d172fe56ee57cc80bdd4ec904f737a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0zd0/wp-frontend/zipball/b0da9b0e8df4e03d5ac4ad258d38a60670f25516",
-                "reference": "b0da9b0e8df4e03d5ac4ad258d38a60670f25516",
+                "url": "https://api.github.com/repos/lunapress/frontend/zipball/7954f2eb53d172fe56ee57cc80bdd4ec904f737a",
+                "reference": "7954f2eb53d172fe56ee57cc80bdd4ec904f737a",
                 "shasum": ""
             },
             "require": {
-                "onepix/wp-contracts": "dev-main",
-                "onepix/wp-frontend-contracts": "dev-main",
-                "php": "^8.3"
-            },
-            "require-dev": {
-                "onepix/wp-static-analysis": "^1",
-                "php-di/php-di": "^7.0"
+                "lunapress/core-contracts": "@dev",
+                "lunapress/frontend-contracts": "@dev",
+                "lunapress/wp-assets-contracts": "@dev",
+                "php": "^8.3",
+                "psr/container": "^2"
             },
             "suggest": {
-                "php-di/php-di": "Required at runtime in the host application"
+                "lunapress/core": "Required to enable core functionality",
+                "lunapress/wp-assets": "Required for WordPress asset management"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\WpFrontend\\": "src/"
+                    "LunaPress\\Frontend\\": "src/"
                 }
             },
-            "scripts": {
-                "fix:phpcs": [
-                    "wp-static-analysis phpcbf"
-                ],
-                "check:phpcs": [
-                    "wp-static-analysis phpcs"
-                ],
-                "check:psalm": [
-                    "wp-static-analysis psalm -- --no-cache"
-                ],
-                "check": [
-                    "@check:phpcs",
-                    "@check:psalm"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
-                    "name": "onepix"
+                    "name": "Onepix",
+                    "homepage": "https://onepix.net",
+                    "role": "Company"
                 },
                 {
-                    "name": "0zd0"
+                    "name": "0zd0",
+                    "homepage": "https://github.com/0zd0",
+                    "role": "Lead Developer"
                 }
             ],
+            "description": "Package for Vite Frontend",
             "support": {
-                "source": "https://github.com/0zd0/wp-frontend/tree/main",
-                "issues": "https://github.com/0zd0/wp-frontend/issues"
+                "issues": "https://github.com/lunapress/frontend/issues",
+                "source": "https://github.com/lunapress/frontend/tree/main"
             },
-            "time": "2025-10-06T03:21:08+00:00"
+            "time": "2025-10-07T22:09:15+00:00"
         },
         {
-            "name": "onepix/wp-frontend-contracts",
+            "name": "lunapress/frontend-contracts",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/0zd0/wp-frontend-contracts.git",
-                "reference": "a900eec3acedf6b6d3f617802ec2911bcaba65a5"
+                "url": "https://github.com/lunapress/frontend-contracts.git",
+                "reference": "c501a7f7ba11ebea1ad42d7325c2110904e1943a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/0zd0/wp-frontend-contracts/zipball/a900eec3acedf6b6d3f617802ec2911bcaba65a5",
-                "reference": "a900eec3acedf6b6d3f617802ec2911bcaba65a5",
+                "url": "https://api.github.com/repos/lunapress/frontend-contracts/zipball/c501a7f7ba11ebea1ad42d7325c2110904e1943a",
+                "reference": "c501a7f7ba11ebea1ad42d7325c2110904e1943a",
                 "shasum": ""
             },
             "require": {
-                "onepix/wp-contracts": "dev-main",
+                "lunapress/core-contracts": "@dev",
+                "lunapress/wp-assets-contracts": "@dev",
                 "php": "^8.3"
-            },
-            "require-dev": {
-                "onepix/wp-static-analysis": "^1"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\WpFrontendContracts\\": "src/"
+                    "LunaPress\\FrontendContracts\\": "src/"
                 }
             },
-            "scripts": {
-                "fix:phpcs": [
-                    "wp-static-analysis phpcbf"
-                ],
-                "check:phpcs": [
-                    "wp-static-analysis phpcs"
-                ],
-                "check:psalm": [
-                    "wp-static-analysis psalm -- --no-cache"
-                ],
-                "check": [
-                    "@check:phpcs",
-                    "@check:psalm"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
-                    "name": "onepix"
+                    "name": "Onepix",
+                    "homepage": "https://onepix.net",
+                    "role": "Company"
                 },
                 {
-                    "name": "0zd0"
+                    "name": "0zd0",
+                    "homepage": "https://github.com/0zd0",
+                    "role": "Lead Developer"
                 }
             ],
+            "description": "Contracts for lunapress/frontend",
             "support": {
-                "source": "https://github.com/0zd0/wp-frontend-contracts/tree/main",
-                "issues": "https://github.com/0zd0/wp-frontend-contracts/issues"
+                "issues": "https://github.com/lunapress/frontend-contracts/issues",
+                "source": "https://github.com/lunapress/frontend-contracts/tree/main"
             },
-            "time": "2025-10-06T03:18:47+00:00"
+            "time": "2025-10-07T21:28:23+00:00"
+        },
+        {
+            "name": "lunapress/frontend-kit",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lunapress/frontend-kit.git",
+                "reference": "dcd840733a1b2bf92ca4aa453ae0a17bac3d98f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lunapress/frontend-kit/zipball/dcd840733a1b2bf92ca4aa453ae0a17bac3d98f9",
+                "reference": "dcd840733a1b2bf92ca4aa453ae0a17bac3d98f9",
+                "shasum": ""
+            },
+            "require": {
+                "lunapress/core": "@dev",
+                "lunapress/frontend": "@dev",
+                "lunapress/wp-assets": "@dev",
+                "php": "^8.3",
+                "psr/container": "^2"
+            },
+            "default-branch": true,
+            "type": "meta-package",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Onepix",
+                    "homepage": "https://onepix.net",
+                    "role": "Company"
+                },
+                {
+                    "name": "0zd0",
+                    "homepage": "https://github.com/0zd0",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Complete frontend package with required LunaPress implementations",
+            "support": {
+                "issues": "https://github.com/lunapress/frontend-kit/issues",
+                "source": "https://github.com/lunapress/frontend-kit/tree/main"
+            },
+            "time": "2025-10-07T22:09:13+00:00"
+        },
+        {
+            "name": "lunapress/wp-assets",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lunapress/wp-assets.git",
+                "reference": "bfebedb79cb57ca01d5b6376dba447c0ada8d7d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lunapress/wp-assets/zipball/bfebedb79cb57ca01d5b6376dba447c0ada8d7d2",
+                "reference": "bfebedb79cb57ca01d5b6376dba447c0ada8d7d2",
+                "shasum": ""
+            },
+            "require": {
+                "lunapress/core-contracts": "@dev",
+                "lunapress/wp-assets-contracts": "@dev",
+                "php": "^8.3",
+                "psr/container": "^2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LunaPress\\Wp\\Assets\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Onepix",
+                    "homepage": "https://onepix.net",
+                    "role": "Company"
+                },
+                {
+                    "name": "0zd0",
+                    "homepage": "https://github.com/0zd0",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Wrapper for WP functions",
+            "support": {
+                "issues": "https://github.com/lunapress/wp-assets/issues",
+                "source": "https://github.com/lunapress/wp-assets/tree/main"
+            },
+            "time": "2025-10-07T21:37:18+00:00"
+        },
+        {
+            "name": "lunapress/wp-assets-contracts",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lunapress/wp-assets-contracts.git",
+                "reference": "b55b10ace1fab75e6f6dc73fd02a928b8a72847c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lunapress/wp-assets-contracts/zipball/b55b10ace1fab75e6f6dc73fd02a928b8a72847c",
+                "reference": "b55b10ace1fab75e6f6dc73fd02a928b8a72847c",
+                "shasum": ""
+            },
+            "require": {
+                "lunapress/core-contracts": "@dev",
+                "php": "^8.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LunaPress\\Wp\\AssetsContracts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Onepix",
+                    "homepage": "https://onepix.net",
+                    "role": "Company"
+                },
+                {
+                    "name": "0zd0",
+                    "homepage": "https://github.com/0zd0",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Contracts for lunapress/wp-assets",
+            "support": {
+                "issues": "https://github.com/lunapress/wp-assets-contracts/issues",
+                "source": "https://github.com/lunapress/wp-assets-contracts/tree/main"
+            },
+            "time": "2025-10-07T20:41:26+00:00"
         },
         {
             "name": "php-di/invoker",
@@ -2202,6 +2291,138 @@
             "time": "2024-12-08T08:18:47+00:00"
         },
         {
+            "name": "lunapress/coding-standards",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lunapress/coding-standards.git",
+                "reference": "ee1907b581322b8d6f87f47ae2c7fbd236434f0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lunapress/coding-standards/zipball/ee1907b581322b8d6f87f47ae2c7fbd236434f0a",
+                "reference": "ee1907b581322b8d6f87f47ae2c7fbd236434f0a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.3",
+                "squizlabs/php_codesniffer": "3.x-dev",
+                "wp-coding-standards/wpcs": "^3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12",
+                "vimeo/psalm": "^6.8"
+            },
+            "default-branch": true,
+            "type": "phpcodesniffer-standard",
+            "autoload": {
+                "psr-4": {
+                    "LunaPressStandard\\": "LunaPressStandard/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Onepix",
+                    "homepage": "https://onepix.net",
+                    "role": "Company"
+                },
+                {
+                    "name": "0zd0",
+                    "homepage": "https://github.com/0zd0",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "PHP_CodeSniffer rules (sniffs) for LunaPress",
+            "keywords": [
+                "LunaPress",
+                "phpcs",
+                "standards",
+                "static analysis",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/lunapress/coding-standards/issues",
+                "source": "https://github.com/lunapress/coding-standards/tree/main"
+            },
+            "time": "2025-10-07T19:13:09+00:00"
+        },
+        {
+            "name": "lunapress/static-analysis",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lunapress/static-analysis.git",
+                "reference": "20d2c1b3af9581c6363b40ffe6fb79f1578b747f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lunapress/static-analysis/zipball/20d2c1b3af9581c6363b40ffe6fb79f1578b747f",
+                "reference": "20d2c1b3af9581c6363b40ffe6fb79f1578b747f",
+                "shasum": ""
+            },
+            "require": {
+                "humanmade/psalm-plugin-wordpress": "^3",
+                "lunapress/coding-standards": "dev-main",
+                "onepix/wordpress-stubs": "*",
+                "php": "^8.3",
+                "rector/rector": "^2",
+                "symfony/console": "^7",
+                "symfony/process": "^7",
+                "vimeo/psalm": "^5 || ^6"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^12",
+                "psalm/plugin-phpunit": "^0"
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/lunapress-static-analysis"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LunaPress\\WpStaticAnalysis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Onepix",
+                    "homepage": "https://onepix.net",
+                    "role": "Company"
+                },
+                {
+                    "name": "0zd0",
+                    "homepage": "https://github.com/0zd0",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Psalm, PHPCS and Rector configs for use in WP",
+            "keywords": [
+                "LunaPress",
+                "dev",
+                "phpcs",
+                "psalm",
+                "rector",
+                "standards",
+                "static analysis",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/lunapress/static-analysis/issues",
+                "source": "https://github.com/lunapress/static-analysis/tree/main"
+            },
+            "time": "2025-10-07T19:16:36+00:00"
+        },
+        {
             "name": "netresearch/jsonmapper",
             "version": "v5.0.0",
             "source": {
@@ -2353,127 +2574,6 @@
                 "source": "https://github.com/0zd0/wordpress-stubs/tree/v6.8.1"
             },
             "time": "2025-05-20T18:42:21+00:00"
-        },
-        {
-            "name": "onepix/wp-coding-standards",
-            "version": "v2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/onepixnet/wp-coding-standards.git",
-                "reference": "4019b138e04faecb343fa517e60ab9e56915ea32"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/onepixnet/wp-coding-standards/zipball/4019b138e04faecb343fa517e60ab9e56915ea32",
-                "reference": "4019b138e04faecb343fa517e60ab9e56915ea32",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.3",
-                "squizlabs/php_codesniffer": "3.x-dev",
-                "wp-coding-standards/wpcs": "^3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12",
-                "vimeo/psalm": "^6.8"
-            },
-            "type": "phpcodesniffer-standard",
-            "autoload": {
-                "psr-4": {
-                    "WpOnepixStandard\\": "WpOnepixStandard/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "onepix"
-                },
-                {
-                    "name": "0zd0"
-                }
-            ],
-            "description": "PHP_CodeSniffer rules (sniffs) to enforce WordPress coding conventions",
-            "keywords": [
-                "phpcs",
-                "standards",
-                "static analysis",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/onepixnet/wp-coding-standards/issues",
-                "source": "https://github.com/onepixnet/wp-coding-standards/tree/v2.0.3"
-            },
-            "time": "2025-10-05T06:06:45+00:00"
-        },
-        {
-            "name": "onepix/wp-static-analysis",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/onepixnet/wp-static-analysis.git",
-                "reference": "0a8795bed02524616c525d253d46b3df63519e35"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/onepixnet/wp-static-analysis/zipball/0a8795bed02524616c525d253d46b3df63519e35",
-                "reference": "0a8795bed02524616c525d253d46b3df63519e35",
-                "shasum": ""
-            },
-            "require": {
-                "humanmade/psalm-plugin-wordpress": "^3",
-                "onepix/wordpress-stubs": "*",
-                "onepix/wp-coding-standards": "^2",
-                "php": "^8.3",
-                "rector/rector": "^2",
-                "symfony/console": "^7",
-                "symfony/polyfill-php83": "*",
-                "symfony/process": "^7",
-                "vimeo/psalm": "^5 || ^6"
-            },
-            "require-dev": {
-                "mikey179/vfsstream": "^1.6",
-                "phpunit/phpunit": "^12",
-                "psalm/plugin-phpunit": "*"
-            },
-            "bin": [
-                "bin/wp-static-analysis"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Onepix\\WpStaticAnalysis\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "onepix"
-                },
-                {
-                    "name": "0zd0"
-                }
-            ],
-            "description": "Psalm, PHPCS and Rector configs for use in WP",
-            "keywords": [
-                "dev",
-                "phpcs",
-                "psalm",
-                "rector",
-                "standards",
-                "static analysis",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/onepixnet/wp-static-analysis/issues",
-                "source": "https://github.com/onepixnet/wp-static-analysis/tree/v1.0.0"
-            },
-            "time": "2025-10-04T03:48:36+00:00"
         },
         {
             "name": "php-stubs/wordpress-globals",
@@ -3170,21 +3270,21 @@
         },
         {
             "name": "rector/rector",
-            "version": "2.1.7",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "c34cc07c4698f007a20dc5c99ff820089ae413ce"
+                "reference": "e1aaf3061e9ae9342ed0824865e3a3360defddeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/c34cc07c4698f007a20dc5c99ff820089ae413ce",
-                "reference": "c34cc07c4698f007a20dc5c99ff820089ae413ce",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/e1aaf3061e9ae9342ed0824865e3a3360defddeb",
+                "reference": "e1aaf3061e9ae9342ed0824865e3a3360defddeb",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4|^8.0",
-                "phpstan/phpstan": "^2.1.18"
+                "phpstan/phpstan": "^2.1.26"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
@@ -3218,7 +3318,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/2.1.7"
+                "source": "https://github.com/rectorphp/rector/tree/2.2.1"
             },
             "funding": [
                 {
@@ -3226,7 +3326,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-10T11:13:58+00:00"
+            "time": "2025-10-06T21:25:14+00:00"
         },
         {
             "name": "revolt/event-loop",
@@ -3441,12 +3541,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "bc5755a116ee04e00fa6ac1c7cda85002795819b"
+                "reference": "c7c1e54a5bf617b1f2231b07e2d776ff284fc871"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/bc5755a116ee04e00fa6ac1c7cda85002795819b",
-                "reference": "bc5755a116ee04e00fa6ac1c7cda85002795819b",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/c7c1e54a5bf617b1f2231b07e2d776ff284fc871",
+                "reference": "c7c1e54a5bf617b1f2231b07e2d776ff284fc871",
                 "shasum": ""
             },
             "require": {
@@ -3512,7 +3612,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-10-05T00:39:23+00:00"
+            "time": "2025-10-06T11:35:02+00:00"
         },
         {
             "name": "symfony/console",
@@ -4083,86 +4183,6 @@
                 }
             ],
             "time": "2024-12-23T08:48:59+00:00"
-        },
-        {
-            "name": "symfony/polyfill-php83",
-            "version": "v1.33.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php83.git",
-                "reference": "17f6f9a6b1735c0f163024d959f700cfbc5155e5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php83/zipball/17f6f9a6b1735c0f163024d959f700cfbc5155e5",
-                "reference": "17f6f9a6b1735c0f163024d959f700cfbc5155e5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-            },
-            "type": "library",
-            "extra": {
-                "thanks": {
-                    "url": "https://github.com/symfony/polyfill",
-                    "name": "symfony/polyfill"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php83\\": ""
-                },
-                "classmap": [
-                    "Resources/stubs"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill backporting some PHP 8.3+ features to lower PHP versions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "polyfill",
-                "portable",
-                "shim"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php83/tree/v1.33.0"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/nicolas-grekas",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2025-07-08T02:45:35+00:00"
         },
         {
             "name": "symfony/polyfill-php84",
@@ -4810,8 +4830,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "onepix/wp-core": 20,
-        "onepix/wp-frontend": 20
+        "lunapress/core": 20,
+        "lunapress/frontend-kit": 20,
+        "lunapress/static-analysis": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
