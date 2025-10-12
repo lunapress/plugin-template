@@ -16,8 +16,12 @@
  */
 declare(strict_types=1);
 
+use LunaPress\PhpDiAdapter\PhpDiContainerBuilder;
 use LunaPress\PluginTemplate\TemplatePlugin;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-TemplatePlugin::getInstance()->boot();
+TemplatePlugin::getInstance()
+    ->setContainerBuilder(
+        new PhpDiContainerBuilder()
+    )->boot();

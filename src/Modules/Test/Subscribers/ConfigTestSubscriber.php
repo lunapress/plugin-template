@@ -4,8 +4,8 @@ declare(strict_types=1);
 namespace LunaPress\PluginTemplate\Modules\Test\Subscribers;
 
 use LunaPress\CoreContracts\Plugin\IConfig;
-use LunaPress\CoreContracts\Plugin\IContext;
-use LunaPress\CoreContracts\Hook\ActionSubscriber;
+use LunaPress\CoreContracts\Plugin\IPluginContext;
+use LunaPress\CoreContracts\Subscriber\ActionSubscriber;
 use LunaPress\Core\Hook\Hook;
 use LunaPress\FrontendContracts\Vite\IViteConfig;
 
@@ -15,7 +15,7 @@ defined('ABSPATH') || exit;
 final readonly class ConfigTestSubscriber implements ActionSubscriber
 {
     public function __construct(
-        private IContext $context,
+        private IPluginContext $context,
         private IConfig $config,
         private IViteConfig $viteConfig,
     ) {
