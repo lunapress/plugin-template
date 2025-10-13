@@ -8,6 +8,7 @@ use LunaPress\CoreContracts\Plugin\IPluginContext;
 use LunaPress\CoreContracts\Subscriber\ActionSubscriber;
 use LunaPress\Core\Hook\Hook;
 use LunaPress\FrontendContracts\Vite\IViteConfig;
+use LunaPress\Wp\AssetsContracts\IAssetDependency;
 
 defined('ABSPATH') || exit;
 
@@ -18,6 +19,7 @@ final readonly class ConfigTestSubscriber implements ActionSubscriber
         private IPluginContext $context,
         private IConfig $config,
         private IViteConfig $viteConfig,
+        private IAssetDependency $assetDependency,
     ) {
     }
 
@@ -32,5 +34,6 @@ final readonly class ConfigTestSubscriber implements ActionSubscriber
         error_log($this->context->getPrefix());
         error_log($this->config->getPluginPath());
         error_log($this->viteConfig->getBuildVitePath());
+        error_log($this->assetDependency::class);
     }
 }

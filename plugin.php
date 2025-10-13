@@ -12,7 +12,7 @@
  * Domain Path: /languages/
  * Requires Plugins:
  *
- * @package Onepix\WpPluginTemplate
+ * @package LunaPress\WpPluginTemplate
  */
 declare(strict_types=1);
 
