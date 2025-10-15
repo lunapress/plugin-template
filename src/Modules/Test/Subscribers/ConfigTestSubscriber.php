@@ -5,16 +5,15 @@ namespace LunaPress\PluginTemplate\Modules\Test\Subscribers;
 
 use LunaPress\CoreContracts\Plugin\IConfig;
 use LunaPress\CoreContracts\Plugin\IPluginContext;
-use LunaPress\CoreContracts\Subscriber\ActionSubscriber;
 use LunaPress\Core\Hook\Hook;
-use LunaPress\FoundationContracts\View\ITemplateManager;
+use LunaPress\Foundation\Subscriber\AbstractActionSubscriber;
 use LunaPress\FrontendContracts\Vite\IViteConfig;
 use LunaPress\Wp\AssetsContracts\IAssetDependency;
 
 defined('ABSPATH') || exit;
 
 #[Hook('plugins_loaded', priority: 20, args: 0)]
-final readonly class ConfigTestSubscriber implements ActionSubscriber
+final readonly class ConfigTestSubscriber extends AbstractActionSubscriber
 {
     public function __construct(
         private IPluginContext $context,
@@ -24,12 +23,7 @@ final readonly class ConfigTestSubscriber implements ActionSubscriber
     ) {
     }
 
-    public function callback(): callable
-    {
-        return $this->handle(...);
-    }
-
-    private function handle(): void
+    public function __invoke(): void
     {
         error_log($this->context->getNamespace());
         error_log($this->context->getPrefix());

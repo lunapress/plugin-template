@@ -73,12 +73,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/core.git",
-                "reference": "b2319bc4e06646dadcbe9b3452f5bf6448cb6b21"
+                "reference": "0ef92b4b4490a7a8faf33450e84090d348fb3e5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/core/zipball/b2319bc4e06646dadcbe9b3452f5bf6448cb6b21",
-                "reference": "b2319bc4e06646dadcbe9b3452f5bf6448cb6b21",
+                "url": "https://api.github.com/repos/lunapress/core/zipball/0ef92b4b4490a7a8faf33450e84090d348fb3e5e",
+                "reference": "0ef92b4b4490a7a8faf33450e84090d348fb3e5e",
                 "shasum": ""
             },
             "require": {
@@ -111,7 +111,7 @@
                 "issues": "https://github.com/lunapress/core/issues",
                 "source": "https://github.com/lunapress/core/tree/main"
             },
-            "time": "2025-10-15T18:17:29+00:00"
+            "time": "2025-10-15T20:06:53+00:00"
         },
         {
             "name": "lunapress/core-contracts",
@@ -119,12 +119,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/core-contracts.git",
-                "reference": "fc2ae331a0687f9e419243657be73d94b37250ab"
+                "reference": "d99ab8f803101f1e53aa21e31ff3356ffa41983f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/core-contracts/zipball/fc2ae331a0687f9e419243657be73d94b37250ab",
-                "reference": "fc2ae331a0687f9e419243657be73d94b37250ab",
+                "url": "https://api.github.com/repos/lunapress/core-contracts/zipball/d99ab8f803101f1e53aa21e31ff3356ffa41983f",
+                "reference": "d99ab8f803101f1e53aa21e31ff3356ffa41983f",
                 "shasum": ""
             },
             "require": {
@@ -156,7 +156,7 @@
                 "issues": "https://github.com/lunapress/core-contracts/issues",
                 "source": "https://github.com/lunapress/core-contracts/tree/main"
             },
-            "time": "2025-10-15T16:07:17+00:00"
+            "time": "2025-10-15T19:49:35+00:00"
         },
         {
             "name": "lunapress/foundation",
@@ -164,12 +164,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/foundation.git",
-                "reference": "ef751b11723e046b29826c98413f4b7dc8532895"
+                "reference": "34c00c71520a497912625e85029576cccab2bc75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/foundation/zipball/ef751b11723e046b29826c98413f4b7dc8532895",
-                "reference": "ef751b11723e046b29826c98413f4b7dc8532895",
+                "url": "https://api.github.com/repos/lunapress/foundation/zipball/34c00c71520a497912625e85029576cccab2bc75",
+                "reference": "34c00c71520a497912625e85029576cccab2bc75",
                 "shasum": ""
             },
             "require": {
@@ -204,7 +204,7 @@
                 "issues": "https://github.com/lunapress/foundation/issues",
                 "source": "https://github.com/lunapress/foundation/tree/main"
             },
-            "time": "2025-10-13T22:56:38+00:00"
+            "time": "2025-10-15T20:06:53+00:00"
         },
         {
             "name": "lunapress/foundation-contracts",
@@ -212,12 +212,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/foundation-contracts.git",
-                "reference": "720a89563ab8a39c196558df1bae079f3405afc2"
+                "reference": "c97dd0e9944e594b65b360d281f42f924fbb38f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/foundation-contracts/zipball/720a89563ab8a39c196558df1bae079f3405afc2",
-                "reference": "720a89563ab8a39c196558df1bae079f3405afc2",
+                "url": "https://api.github.com/repos/lunapress/foundation-contracts/zipball/c97dd0e9944e594b65b360d281f42f924fbb38f4",
+                "reference": "c97dd0e9944e594b65b360d281f42f924fbb38f4",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,7 @@
                 "issues": "https://github.com/lunapress/foundation-contracts/issues",
                 "source": "https://github.com/lunapress/foundation-contracts/tree/main"
             },
-            "time": "2025-10-15T17:42:32+00:00"
+            "time": "2025-10-15T19:49:33+00:00"
         },
         {
             "name": "lunapress/frontend",
