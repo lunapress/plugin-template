@@ -7,6 +7,7 @@ use LunaPress\CoreContracts\Plugin\IConfig;
 use LunaPress\CoreContracts\Plugin\IPluginContext;
 use LunaPress\CoreContracts\Subscriber\ActionSubscriber;
 use LunaPress\Core\Hook\Hook;
+use LunaPress\FoundationContracts\View\ITemplateManager;
 use LunaPress\FrontendContracts\Vite\IViteConfig;
 use LunaPress\Wp\AssetsContracts\IAssetDependency;
 
@@ -28,7 +29,7 @@ final readonly class ConfigTestSubscriber implements ActionSubscriber
         return $this->handle(...);
     }
 
-    public function handle(): void
+    private function handle(): void
     {
         error_log($this->context->getNamespace());
         error_log($this->context->getPrefix());

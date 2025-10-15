@@ -5,6 +5,7 @@ namespace LunaPress\PluginTemplate\Modules\Test;
 
 use LunaPress\FoundationContracts\Module\IModule;
 use LunaPress\PluginTemplate\Modules\Test\Subscribers\ConfigTestSubscriber;
+use LunaPress\PluginTemplate\Modules\Test\Subscribers\TemplateTestSubscriber;
 
 defined('ABSPATH') || exit;
 
@@ -17,6 +18,7 @@ final readonly class TestModule implements IModule
     {
         return [
             ConfigTestSubscriber::class,
+            TemplateTestSubscriber::class,
         ];
     }
 }
