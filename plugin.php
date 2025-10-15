@@ -24,4 +24,4 @@ require_once __DIR__ . '/vendor/autoload.php';
 TemplatePlugin::getInstance()
     ->setContainerBuilder(
         new PhpDiContainerBuilder()
-    )->boot();
+    )->boot(__FILE__);

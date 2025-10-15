@@ -33,6 +33,7 @@ final readonly class ConfigTestSubscriber implements ActionSubscriber
         error_log($this->context->getNamespace());
         error_log($this->context->getPrefix());
         error_log($this->config->getPluginPath());
+        error_log($this->config->getPluginVersion());
         error_log($this->viteConfig->getBuildVitePath());
         error_log($this->assetDependency::class);
     }
