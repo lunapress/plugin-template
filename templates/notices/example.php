@@ -15,3 +15,5 @@ use LunaPress\CoreContracts\Plugin\IConfig;
     <p><strong>Plugin path:</strong> <?= $config->getPluginPath(); ?></p>
 </div>
 </div>
+
+<div class="block notice frontend-preview-notice"></div>

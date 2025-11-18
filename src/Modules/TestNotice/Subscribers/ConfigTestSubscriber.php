@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\PluginTemplate\Modules\Test\Subscribers;
+namespace LunaPress\PluginTemplate\Modules\TestNotice\Subscribers;
 
 use LunaPress\CoreContracts\Plugin\IConfig;
 use LunaPress\CoreContracts\Plugin\IPluginContext;

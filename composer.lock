@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f57f32faa97f5c30107c4d61e6ed83c6",
+    "content-hash": "ae9a7dc210123349ecaf3fabb085aaaf",
     "packages": [
         {
             "name": "laravel/serializable-closure",
@@ -73,12 +73,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/core.git",
-                "reference": "8f3df15db8cb2624631011353808c3b9b99401e5"
+                "reference": "a5b1e2dfa6df2caa997a6d20e17f83a81a0574d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/core/zipball/8f3df15db8cb2624631011353808c3b9b99401e5",
-                "reference": "8f3df15db8cb2624631011353808c3b9b99401e5",
+                "url": "https://api.github.com/repos/lunapress/core/zipball/a5b1e2dfa6df2caa997a6d20e17f83a81a0574d4",
+                "reference": "a5b1e2dfa6df2caa997a6d20e17f83a81a0574d4",
                 "shasum": ""
             },
             "require": {
@@ -111,7 +111,7 @@
                 "issues": "https://github.com/lunapress/core/issues",
                 "source": "https://github.com/lunapress/core/tree/main"
             },
-            "time": "2025-10-15T23:37:55+00:00"
+            "time": "2025-11-18T15:06:43+00:00"
         },
         {
             "name": "lunapress/core-contracts",
@@ -119,12 +119,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/core-contracts.git",
-                "reference": "d99ab8f803101f1e53aa21e31ff3356ffa41983f"
+                "reference": "56c04994d472f5ebcc2cd38edf0eef0f1e3ad0f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/core-contracts/zipball/d99ab8f803101f1e53aa21e31ff3356ffa41983f",
-                "reference": "d99ab8f803101f1e53aa21e31ff3356ffa41983f",
+                "url": "https://api.github.com/repos/lunapress/core-contracts/zipball/56c04994d472f5ebcc2cd38edf0eef0f1e3ad0f0",
+                "reference": "56c04994d472f5ebcc2cd38edf0eef0f1e3ad0f0",
                 "shasum": ""
             },
             "require": {
@@ -156,7 +156,7 @@
                 "issues": "https://github.com/lunapress/core-contracts/issues",
                 "source": "https://github.com/lunapress/core-contracts/tree/main"
             },
-            "time": "2025-10-15T19:49:35+00:00"
+            "time": "2025-11-18T14:57:25+00:00"
         },
         {
             "name": "lunapress/foundation",
@@ -164,12 +164,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/foundation.git",
-                "reference": "05966e73688754477ff83181122f803d6974502d"
+                "reference": "c195831ed50fde088cead6835d4633b9595ba9da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/foundation/zipball/05966e73688754477ff83181122f803d6974502d",
-                "reference": "05966e73688754477ff83181122f803d6974502d",
+                "url": "https://api.github.com/repos/lunapress/foundation/zipball/c195831ed50fde088cead6835d4633b9595ba9da",
+                "reference": "c195831ed50fde088cead6835d4633b9595ba9da",
                 "shasum": ""
             },
             "require": {
@@ -204,7 +204,7 @@
                 "issues": "https://github.com/lunapress/foundation/issues",
                 "source": "https://github.com/lunapress/foundation/tree/main"
             },
-            "time": "2025-10-15T20:54:41+00:00"
+            "time": "2025-11-18T15:06:41+00:00"
         },
         {
             "name": "lunapress/foundation-contracts",
@@ -212,12 +212,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/foundation-contracts.git",
-                "reference": "ddf255c8ade44fd7337b31ccf424affc3d75e8e3"
+                "reference": "58117e7a778e1f45022d2dd8303a57dbe3d785cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/foundation-contracts/zipball/ddf255c8ade44fd7337b31ccf424affc3d75e8e3",
-                "reference": "ddf255c8ade44fd7337b31ccf424affc3d75e8e3",
+                "url": "https://api.github.com/repos/lunapress/foundation-contracts/zipball/58117e7a778e1f45022d2dd8303a57dbe3d785cf",
+                "reference": "58117e7a778e1f45022d2dd8303a57dbe3d785cf",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,7 @@
                 "issues": "https://github.com/lunapress/foundation-contracts/issues",
                 "source": "https://github.com/lunapress/foundation-contracts/tree/main"
             },
-            "time": "2025-10-15T23:44:03+00:00"
+            "time": "2025-11-18T14:57:27+00:00"
         },
         {
             "name": "lunapress/frontend",
@@ -257,12 +257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/frontend.git",
-                "reference": "dbc8e121bd10be59f472795167c7793ae64f46cf"
+                "reference": "510b9d0fca6e1c927f635068ff0dc19403f9fb14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/frontend/zipball/dbc8e121bd10be59f472795167c7793ae64f46cf",
-                "reference": "dbc8e121bd10be59f472795167c7793ae64f46cf",
+                "url": "https://api.github.com/repos/lunapress/frontend/zipball/510b9d0fca6e1c927f635068ff0dc19403f9fb14",
+                "reference": "510b9d0fca6e1c927f635068ff0dc19403f9fb14",
                 "shasum": ""
             },
             "require": {
@@ -302,7 +302,7 @@
                 "issues": "https://github.com/lunapress/frontend/issues",
                 "source": "https://github.com/lunapress/frontend/tree/main"
             },
-            "time": "2025-10-15T21:59:04+00:00"
+            "time": "2025-11-18T17:50:45+00:00"
         },
         {
             "name": "lunapress/frontend-contracts",
@@ -310,12 +310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/frontend-contracts.git",
-                "reference": "9403532c7df5ccd51c02cf074dd749051e7dfa9c"
+                "reference": "434907aa21ed76feadc7f0821a153c1c13c5a7be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/frontend-contracts/zipball/9403532c7df5ccd51c02cf074dd749051e7dfa9c",
-                "reference": "9403532c7df5ccd51c02cf074dd749051e7dfa9c",
+                "url": "https://api.github.com/repos/lunapress/frontend-contracts/zipball/434907aa21ed76feadc7f0821a153c1c13c5a7be",
+                "reference": "434907aa21ed76feadc7f0821a153c1c13c5a7be",
                 "shasum": ""
             },
             "require": {
@@ -347,7 +347,7 @@
                 "issues": "https://github.com/lunapress/frontend-contracts/issues",
                 "source": "https://github.com/lunapress/frontend-contracts/tree/main"
             },
-            "time": "2025-10-12T01:27:37+00:00"
+            "time": "2025-11-18T17:46:32+00:00"
         },
         {
             "name": "lunapress/frontend-kit",
@@ -355,12 +355,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/frontend-kit.git",
-                "reference": "dcd840733a1b2bf92ca4aa453ae0a17bac3d98f9"
+                "reference": "b20cf596939b93f80554bd175030658612901a9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/frontend-kit/zipball/dcd840733a1b2bf92ca4aa453ae0a17bac3d98f9",
-                "reference": "dcd840733a1b2bf92ca4aa453ae0a17bac3d98f9",
+                "url": "https://api.github.com/repos/lunapress/frontend-kit/zipball/b20cf596939b93f80554bd175030658612901a9d",
+                "reference": "b20cf596939b93f80554bd175030658612901a9d",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "psr/container": "^2"
             },
             "default-branch": true,
-            "type": "meta-package",
+            "type": "metapackage",
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
@@ -390,7 +390,7 @@
                 "issues": "https://github.com/lunapress/frontend-kit/issues",
                 "source": "https://github.com/lunapress/frontend-kit/tree/main"
             },
-            "time": "2025-10-07T22:09:13+00:00"
+            "time": "2025-10-19T20:40:46+00:00"
         },
         {
             "name": "lunapress/php-di-adapter",
@@ -444,12 +444,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/wp-assets.git",
-                "reference": "7e423a660282263bc76dd454262c095672fb2b60"
+                "reference": "f0bba35ca9b9b85984333c8b22aeca0f0645e2d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/wp-assets/zipball/7e423a660282263bc76dd454262c095672fb2b60",
-                "reference": "7e423a660282263bc76dd454262c095672fb2b60",
+                "url": "https://api.github.com/repos/lunapress/wp-assets/zipball/f0bba35ca9b9b85984333c8b22aeca0f0645e2d1",
+                "reference": "f0bba35ca9b9b85984333c8b22aeca0f0645e2d1",
                 "shasum": ""
             },
             "require": {
@@ -488,7 +488,7 @@
             "support": {
                 "source": "https://github.com/lunapress/wp-assets/tree/main"
             },
-            "time": "2025-10-13T01:46:29+00:00"
+            "time": "2025-11-18T17:37:53+00:00"
         },
         {
             "name": "lunapress/wp-assets-contracts",
@@ -496,12 +496,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/wp-assets-contracts.git",
-                "reference": "b55b10ace1fab75e6f6dc73fd02a928b8a72847c"
+                "reference": "de99be359886d04685ce7a253c5d55dbf70520f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/wp-assets-contracts/zipball/b55b10ace1fab75e6f6dc73fd02a928b8a72847c",
-                "reference": "b55b10ace1fab75e6f6dc73fd02a928b8a72847c",
+                "url": "https://api.github.com/repos/lunapress/wp-assets-contracts/zipball/de99be359886d04685ce7a253c5d55dbf70520f1",
+                "reference": "de99be359886d04685ce7a253c5d55dbf70520f1",
                 "shasum": ""
             },
             "require": {
@@ -530,10 +530,9 @@
             ],
             "description": "Contracts for lunapress/wp-assets",
             "support": {
-                "issues": "https://github.com/lunapress/wp-assets-contracts/issues",
                 "source": "https://github.com/lunapress/wp-assets-contracts/tree/main"
             },
-            "time": "2025-10-07T20:41:26+00:00"
+            "time": "2025-11-18T17:24:34+00:00"
         },
         {
             "name": "php-di/invoker",
@@ -1846,29 +1845,29 @@
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
-            "version": "v1.1.2",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/composer-installer.git",
-                "reference": "e9cf5e4bbf7eeaf9ef5db34938942602838fc2b1"
+                "reference": "845eb62303d2ca9b289ef216356568ccc075ffd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/composer-installer/zipball/e9cf5e4bbf7eeaf9ef5db34938942602838fc2b1",
-                "reference": "e9cf5e4bbf7eeaf9ef5db34938942602838fc2b1",
+                "url": "https://api.github.com/repos/PHPCSStandards/composer-installer/zipball/845eb62303d2ca9b289ef216356568ccc075ffd1",
+                "reference": "845eb62303d2ca9b289ef216356568ccc075ffd1",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.2",
                 "php": ">=5.4",
-                "squizlabs/php_codesniffer": "^2.0 || ^3.1.0 || ^4.0"
+                "squizlabs/php_codesniffer": "^3.1.0 || ^4.0"
             },
             "require-dev": {
                 "composer/composer": "^2.2",
                 "ext-json": "*",
                 "ext-zip": "*",
                 "php-parallel-lint/php-parallel-lint": "^1.4.0",
-                "phpcompatibility/php-compatibility": "^9.0",
+                "phpcompatibility/php-compatibility": "^9.0 || ^10.0.0@dev",
                 "yoast/phpunit-polyfills": "^1.0"
             },
             "type": "composer-plugin",
@@ -1938,7 +1937,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-07-17T20:45:56+00:00"
+            "time": "2025-11-11T04:32:07+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2263,33 +2262,38 @@
         },
         {
             "name": "league/uri",
-            "version": "7.5.1",
+            "version": "7.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri.git",
-                "reference": "81fb5145d2644324614cc532b28efd0215bda430"
+                "reference": "f625804987a0a9112d954f9209d91fec52182344"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri/zipball/81fb5145d2644324614cc532b28efd0215bda430",
-                "reference": "81fb5145d2644324614cc532b28efd0215bda430",
+                "url": "https://api.github.com/repos/thephpleague/uri/zipball/f625804987a0a9112d954f9209d91fec52182344",
+                "reference": "f625804987a0a9112d954f9209d91fec52182344",
                 "shasum": ""
             },
             "require": {
-                "league/uri-interfaces": "^7.5",
-                "php": "^8.1"
+                "league/uri-interfaces": "^7.6",
+                "php": "^8.1",
+                "psr/http-factory": "^1"
             },
             "conflict": {
                 "league/uri-schemes": "^1.0"
             },
             "suggest": {
                 "ext-bcmath": "to improve IPV4 host parsing",
+                "ext-dom": "to convert the URI into an HTML anchor tag",
                 "ext-fileinfo": "to create Data URI from file contennts",
                 "ext-gmp": "to improve IPV4 host parsing",
                 "ext-intl": "to handle IDN host with the best performance",
+                "ext-uri": "to use the PHP native URI class",
                 "jeremykendall/php-domain-parser": "to resolve Public Suffix and Top Level Domain",
                 "league/uri-components": "Needed to easily manipulate URI objects components",
+                "league/uri-polyfill": "Needed to backport the PHP URI extension for older versions of PHP",
                 "php-64bit": "to improve IPV4 host parsing",
+                "rowbot/url": "to handle WHATWG URL",
                 "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
             },
             "type": "library",
@@ -2317,6 +2321,7 @@
             "description": "URI manipulation library",
             "homepage": "https://uri.thephpleague.com",
             "keywords": [
+                "URN",
                 "data-uri",
                 "file-uri",
                 "ftp",
@@ -2329,9 +2334,11 @@
                 "psr-7",
                 "query-string",
                 "querystring",
+                "rfc2141",
                 "rfc3986",
                 "rfc3987",
                 "rfc6570",
+                "rfc8141",
                 "uri",
                 "uri-template",
                 "url",
@@ -2341,7 +2348,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-                "source": "https://github.com/thephpleague/uri/tree/7.5.1"
+                "source": "https://github.com/thephpleague/uri/tree/7.6.0"
             },
             "funding": [
                 {
@@ -2349,26 +2356,25 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-08T08:40:02+00:00"
+            "time": "2025-11-18T12:17:23+00:00"
         },
         {
             "name": "league/uri-interfaces",
-            "version": "7.5.0",
+            "version": "7.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri-interfaces.git",
-                "reference": "08cfc6c4f3d811584fb09c37e2849e6a7f9b0742"
+                "reference": "ccbfb51c0445298e7e0b7f4481b942f589665368"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/08cfc6c4f3d811584fb09c37e2849e6a7f9b0742",
-                "reference": "08cfc6c4f3d811584fb09c37e2849e6a7f9b0742",
+                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/ccbfb51c0445298e7e0b7f4481b942f589665368",
+                "reference": "ccbfb51c0445298e7e0b7f4481b942f589665368",
                 "shasum": ""
             },
             "require": {
                 "ext-filter": "*",
                 "php": "^8.1",
-                "psr/http-factory": "^1",
                 "psr/http-message": "^1.1 || ^2.0"
             },
             "suggest": {
@@ -2376,6 +2382,7 @@
                 "ext-gmp": "to improve IPV4 host parsing",
                 "ext-intl": "to handle IDN host with the best performance",
                 "php-64bit": "to improve IPV4 host parsing",
+                "rowbot/url": "to handle WHATWG URL",
                 "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
             },
             "type": "library",
@@ -2400,7 +2407,7 @@
                     "homepage": "https://nyamsprod.com"
                 }
             ],
-            "description": "Common interfaces and classes for URI representation and interaction",
+            "description": "Common tools for parsing and resolving RFC3987/RFC3986 URI",
             "homepage": "https://uri.thephpleague.com",
             "keywords": [
                 "data-uri",
@@ -2425,7 +2432,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.5.0"
+                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.6.0"
             },
             "funding": [
                 {
@@ -2433,7 +2440,62 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-08T08:18:47+00:00"
+            "time": "2025-11-18T12:17:23+00:00"
+        },
+        {
+            "name": "lunapress/cli",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lunapress/cli.git",
+                "reference": "e4987796fcdecfee33cbbad2c371575b14474cad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lunapress/cli/zipball/e4987796fcdecfee33cbbad2c371575b14474cad",
+                "reference": "e4987796fcdecfee33cbbad2c371575b14474cad",
+                "shasum": ""
+            },
+            "require": {
+                "mustache/mustache": "^v3.0.0",
+                "php": "^8.3",
+                "symfony/console": "^v7",
+                "symfony/finder": "^v7.3"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^v1.6.12",
+                "mockery/mockery": "^1.6.12",
+                "pestphp/pest": "^v4"
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/lunapress"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LunaPress\\Cli\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Onepix",
+                    "homepage": "https://onepix.net",
+                    "role": "Company"
+                },
+                {
+                    "name": "0zd0",
+                    "homepage": "https://github.com/0zd0",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "CLI for development",
+            "support": {
+                "issues": "https://github.com/lunapress/cli/issues",
+                "source": "https://github.com/lunapress/cli/tree/main"
+            },
+            "time": "2025-11-18T04:15:24+00:00"
         },
         {
             "name": "lunapress/coding-standards",
@@ -2568,6 +2630,59 @@
             "time": "2025-10-07T19:16:36+00:00"
         },
         {
+            "name": "mustache/mustache",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "176b6b21d68516dd5107a63ab71b0050e518b7a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/176b6b21d68516dd5107a63ab71b0050e518b7a4",
+                "reference": "176b6b21d68516dd5107a63ab71b0050e518b7a4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.19.3",
+                "yoast/phpunit-polyfills": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mustache\\": "src/"
+                },
+                "classmap": [
+                    "src/compat.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "support": {
+                "issues": "https://github.com/bobthecow/mustache.php/issues",
+                "source": "https://github.com/bobthecow/mustache.php/tree/v3.0.0"
+            },
+            "time": "2025-06-28T18:28:20+00:00"
+        },
+        {
             "name": "netresearch/jsonmapper",
             "version": "v5.0.0",
             "source": {
@@ -2620,16 +2735,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.6.1",
+            "version": "v5.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "f103601b29efebd7ff4a1ca7b3eeea9e3336a2a2"
+                "reference": "3a454ca033b9e06b63282ce19562e892747449bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f103601b29efebd7ff4a1ca7b3eeea9e3336a2a2",
-                "reference": "f103601b29efebd7ff4a1ca7b3eeea9e3336a2a2",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/3a454ca033b9e06b63282ce19562e892747449bb",
+                "reference": "3a454ca033b9e06b63282ce19562e892747449bb",
                 "shasum": ""
             },
             "require": {
@@ -2672,9 +2787,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.6.1"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.6.2"
             },
-            "time": "2025-08-13T20:13:15+00:00"
+            "time": "2025-10-21T19:32:17+00:00"
         },
         {
             "name": "onepix/wordpress-stubs",
@@ -2807,27 +2922,27 @@
         },
         {
             "name": "phpcsstandards/phpcsextra",
-            "version": "1.4.1",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHPCSExtra.git",
-                "reference": "882b8c947ada27eb002870fe77fee9ce0a454cdb"
+                "reference": "b598aa890815b8df16363271b659d73280129101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSExtra/zipball/882b8c947ada27eb002870fe77fee9ce0a454cdb",
-                "reference": "882b8c947ada27eb002870fe77fee9ce0a454cdb",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSExtra/zipball/b598aa890815b8df16363271b659d73280129101",
+                "reference": "b598aa890815b8df16363271b659d73280129101",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
-                "phpcsstandards/phpcsutils": "^1.1.2",
-                "squizlabs/php_codesniffer": "^3.13.4 || ^4.0"
+                "phpcsstandards/phpcsutils": "^1.2.0",
+                "squizlabs/php_codesniffer": "^3.13.5 || ^4.0.1"
             },
             "require-dev": {
                 "php-parallel-lint/php-console-highlighter": "^1.0",
                 "php-parallel-lint/php-parallel-lint": "^1.4.0",
-                "phpcsstandards/phpcsdevcs": "^1.1.6",
+                "phpcsstandards/phpcsdevcs": "^1.2.0",
                 "phpcsstandards/phpcsdevtools": "^1.2.1",
                 "phpunit/phpunit": "^4.5 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.3.4"
             },
@@ -2885,32 +3000,32 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-09-05T06:54:52+00:00"
+            "time": "2025-11-12T23:06:57+00:00"
         },
         {
             "name": "phpcsstandards/phpcsutils",
-            "version": "1.1.2",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHPCSUtils.git",
-                "reference": "b22b59e3d9ec8fe4953e42c7d59117c6eae70eae"
+                "reference": "d71128c702c180ca3b27c761b6773f883394f162"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/b22b59e3d9ec8fe4953e42c7d59117c6eae70eae",
-                "reference": "b22b59e3d9ec8fe4953e42c7d59117c6eae70eae",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSUtils/zipball/d71128c702c180ca3b27c761b6773f883394f162",
+                "reference": "d71128c702c180ca3b27c761b6773f883394f162",
                 "shasum": ""
             },
             "require": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.4.1 || ^0.5 || ^0.6.2 || ^0.7 || ^1.0",
                 "php": ">=5.4",
-                "squizlabs/php_codesniffer": "^3.13.3 || ^4.0"
+                "squizlabs/php_codesniffer": "^3.13.5 || ^4.0.1"
             },
             "require-dev": {
                 "ext-filter": "*",
                 "php-parallel-lint/php-console-highlighter": "^1.0",
                 "php-parallel-lint/php-parallel-lint": "^1.4.0",
-                "phpcsstandards/phpcsdevcs": "^1.1.6",
+                "phpcsstandards/phpcsdevcs": "^1.2.0",
                 "yoast/phpunit-polyfills": "^1.1.0 || ^2.0.0 || ^3.0.0"
             },
             "type": "phpcodesniffer-standard",
@@ -2978,7 +3093,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-09-05T00:00:03+00:00"
+            "time": "2025-11-17T12:58:33+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -3099,16 +3214,16 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.10.0",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "679e3ce485b99e84c775d28e2e96fade9a7fb50a"
+                "reference": "431c02da15e566adb0ad9c5030fa6f6204d9de9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/679e3ce485b99e84c775d28e2e96fade9a7fb50a",
-                "reference": "679e3ce485b99e84c775d28e2e96fade9a7fb50a",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/431c02da15e566adb0ad9c5030fa6f6204d9de9e",
+                "reference": "431c02da15e566adb0ad9c5030fa6f6204d9de9e",
                 "shasum": ""
             },
             "require": {
@@ -3151,9 +3266,9 @@
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.10.0"
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.10.1"
             },
-            "time": "2024-11-09T15:12:26+00:00"
+            "time": "2025-11-18T07:51:16+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
@@ -3204,11 +3319,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.31",
+            "version": "2.1.32",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ead89849d879fe203ce9292c6ef5e7e76f867b96",
-                "reference": "ead89849d879fe203ce9292c6ef5e7e76f867b96",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e126cad1e30a99b137b8ed75a85a676450ebb227",
+                "reference": "e126cad1e30a99b137b8ed75a85a676450ebb227",
                 "shasum": ""
             },
             "require": {
@@ -3253,7 +3368,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-10-10T14:14:11+00:00"
+            "time": "2025-11-11T15:18:17+00:00"
         },
         {
             "name": "psr/http-factory",
@@ -3415,21 +3530,21 @@
         },
         {
             "name": "rector/rector",
-            "version": "2.2.3",
+            "version": "2.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "d27f976a332a87b5d03553c2e6f04adbe5da034f"
+                "reference": "303aa811649ccd1d32e51e62d5c85949d01b5f1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/d27f976a332a87b5d03553c2e6f04adbe5da034f",
-                "reference": "d27f976a332a87b5d03553c2e6f04adbe5da034f",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/303aa811649ccd1d32e51e62d5c85949d01b5f1b",
+                "reference": "303aa811649ccd1d32e51e62d5c85949d01b5f1b",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4|^8.0",
-                "phpstan/phpstan": "^2.1.26"
+                "phpstan/phpstan": "^2.1.32"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
@@ -3463,7 +3578,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/2.2.3"
+                "source": "https://github.com/rectorphp/rector/tree/2.2.8"
             },
             "funding": [
                 {
@@ -3471,7 +3586,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-10-11T21:50:23+00:00"
+            "time": "2025-11-12T18:38:00+00:00"
         },
         {
             "name": "revolt/event-loop",
@@ -3614,16 +3729,16 @@
         },
         {
             "name": "spatie/array-to-xml",
-            "version": "3.4.0",
+            "version": "3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/array-to-xml.git",
-                "reference": "7dcfc67d60b0272926dabad1ec01f6b8a5fb5e67"
+                "reference": "6a740f39415aee8886aea10333403adc77d50791"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/array-to-xml/zipball/7dcfc67d60b0272926dabad1ec01f6b8a5fb5e67",
-                "reference": "7dcfc67d60b0272926dabad1ec01f6b8a5fb5e67",
+                "url": "https://api.github.com/repos/spatie/array-to-xml/zipball/6a740f39415aee8886aea10333403adc77d50791",
+                "reference": "6a740f39415aee8886aea10333403adc77d50791",
                 "shasum": ""
             },
             "require": {
@@ -3666,7 +3781,7 @@
                 "xml"
             ],
             "support": {
-                "source": "https://github.com/spatie/array-to-xml/tree/3.4.0"
+                "source": "https://github.com/spatie/array-to-xml/tree/3.4.1"
             },
             "funding": [
                 {
@@ -3678,7 +3793,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-16T12:45:15+00:00"
+            "time": "2025-11-12T10:32:50+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -3686,12 +3801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "c7c1e54a5bf617b1f2231b07e2d776ff284fc871"
+                "reference": "e4b516b8b2f6f2af8d5e10d16dc2085d12089053"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/c7c1e54a5bf617b1f2231b07e2d776ff284fc871",
-                "reference": "c7c1e54a5bf617b1f2231b07e2d776ff284fc871",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/e4b516b8b2f6f2af8d5e10d16dc2085d12089053",
+                "reference": "e4b516b8b2f6f2af8d5e10d16dc2085d12089053",
                 "shasum": ""
             },
             "require": {
@@ -3757,20 +3872,20 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-10-06T11:35:02+00:00"
+            "time": "2025-11-18T05:38:50+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v7.3.4",
+            "version": "v7.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "2b9c5fafbac0399a20a2e82429e2bd735dcfb7db"
+                "reference": "c28ad91448f86c5f6d9d2c70f0cf68bf135f252a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/2b9c5fafbac0399a20a2e82429e2bd735dcfb7db",
-                "reference": "2b9c5fafbac0399a20a2e82429e2bd735dcfb7db",
+                "url": "https://api.github.com/repos/symfony/console/zipball/c28ad91448f86c5f6d9d2c70f0cf68bf135f252a",
+                "reference": "c28ad91448f86c5f6d9d2c70f0cf68bf135f252a",
                 "shasum": ""
             },
             "require": {
@@ -3835,7 +3950,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v7.3.4"
+                "source": "https://github.com/symfony/console/tree/v7.3.6"
             },
             "funding": [
                 {
@@ -3855,7 +3970,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-09-22T15:31:00+00:00"
+            "time": "2025-11-04T01:21:42+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3926,16 +4041,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v7.3.2",
+            "version": "v7.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "edcbb768a186b5c3f25d0643159a787d3e63b7fd"
+                "reference": "e9bcfd7837928ab656276fe00464092cc9e1826a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/edcbb768a186b5c3f25d0643159a787d3e63b7fd",
-                "reference": "edcbb768a186b5c3f25d0643159a787d3e63b7fd",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/e9bcfd7837928ab656276fe00464092cc9e1826a",
+                "reference": "e9bcfd7837928ab656276fe00464092cc9e1826a",
                 "shasum": ""
             },
             "require": {
@@ -3972,7 +4087,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v7.3.2"
+                "source": "https://github.com/symfony/filesystem/tree/v7.3.6"
             },
             "funding": [
                 {
@@ -3992,7 +4107,75 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-07T08:17:47+00:00"
+            "time": "2025-11-05T09:52:27+00:00"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v7.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "9f696d2f1e340484b4683f7853b273abff94421f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/9f696d2f1e340484b4683f7853b273abff94421f",
+                "reference": "9f696d2f1e340484b4683f7853b273abff94421f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "symfony/filesystem": "^6.4|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Finds files and directories via an intuitive fluent interface",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/finder/tree/v7.3.5"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-10-15T18:45:57+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -4476,16 +4659,16 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v3.6.0",
+            "version": "v3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "f021b05a130d35510bd6b25fe9053c2a8a15d5d4"
+                "reference": "45112560a3ba2d715666a509a0bc9521d10b6c43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f021b05a130d35510bd6b25fe9053c2a8a15d5d4",
-                "reference": "f021b05a130d35510bd6b25fe9053c2a8a15d5d4",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/45112560a3ba2d715666a509a0bc9521d10b6c43",
+                "reference": "45112560a3ba2d715666a509a0bc9521d10b6c43",
                 "shasum": ""
             },
             "require": {
@@ -4539,7 +4722,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v3.6.0"
+                "source": "https://github.com/symfony/service-contracts/tree/v3.6.1"
             },
             "funding": [
                 {
@@ -4551,11 +4734,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-25T09:37:31+00:00"
+            "time": "2025-07-15T11:30:57+00:00"
         },
         {
             "name": "symfony/string",
@@ -4767,28 +4954,28 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.11.0",
+            "version": "1.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
-                "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991"
+                "reference": "9be6926d8b485f55b9229203f962b51ed377ba68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/11cb2199493b2f8a3b53e7f19068fc6aac760991",
-                "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/9be6926d8b485f55b9229203f962b51ed377ba68",
+                "reference": "9be6926d8b485f55b9229203f962b51ed377ba68",
                 "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
+                "ext-date": "*",
+                "ext-filter": "*",
                 "php": "^7.2 || ^8.0"
             },
-            "conflict": {
-                "phpstan/phpstan": "<0.12.20",
-                "vimeo/psalm": "<4.6.1 || 4.6.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^8.5.13"
+            "suggest": {
+                "ext-intl": "",
+                "ext-simplexml": "",
+                "ext-spl": ""
             },
             "type": "library",
             "extra": {
@@ -4819,9 +5006,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/1.11.0"
+                "source": "https://github.com/webmozarts/assert/tree/1.12.1"
             },
-            "time": "2022-06-03T18:03:27+00:00"
+            "time": "2025-10-29T15:56:20+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
@@ -4975,6 +5162,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "lunapress/cli": 20,
         "lunapress/core": 20,
         "lunapress/frontend-kit": 20,
         "lunapress/php-di-adapter": 20,

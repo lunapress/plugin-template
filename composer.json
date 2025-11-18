@@ -26,7 +26,8 @@
         "lunapress/php-di-adapter": "@dev"
     },
     "require-dev": {
-        "lunapress/static-analysis": "@dev"
+        "lunapress/static-analysis": "@dev",
+        "lunapress/cli": "@dev"
     },
     "config": {
         "allow-plugins": {
