@@ -23,7 +23,8 @@
         "php": "^8.3",
         "lunapress/core": "@dev",
         "lunapress/frontend-kit": "@dev",
-        "lunapress/php-di-adapter": "@dev"
+        "lunapress/php-di-adapter": "@dev",
+        "lunapress/wp-i18n": "@dev"
     },
     "require-dev": {
         "lunapress/static-analysis": "@dev",
