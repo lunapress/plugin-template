@@ -8,7 +8,7 @@ declare(strict_types=1);
 
 use LunaPress\CoreContracts\Plugin\IConfig;
 use LunaPress\PluginTemplate\Core\Translator\IPluginTranslator;
-use LunaPress\Wp\I18nContracts\RenderTranslate\IRenderTranslateFactory;
+use LunaPress\Wp\I18nContracts\Function\RenderTranslate\IRenderTranslateFactory;
 
 ?>
 

@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate\Core\Translator;
 
-use LunaPress\Wp\I18n\Translator\Translator;
+use LunaPress\Wp\I18n\Service\Translator\Translator;
 
 defined('ABSPATH') || exit;
 

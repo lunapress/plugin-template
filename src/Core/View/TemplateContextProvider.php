@@ -6,7 +6,7 @@ namespace LunaPress\PluginTemplate\Core\View;
 use LunaPress\CoreContracts\Plugin\IConfig;
 use LunaPress\FoundationContracts\View\ITemplateContextProvider;
 use LunaPress\PluginTemplate\Core\Translator\IPluginTranslator;
-use LunaPress\Wp\I18nContracts\RenderTranslate\IRenderTranslateFactory;
+use LunaPress\Wp\I18nContracts\Function\RenderTranslate\IRenderTranslateFactory;
 
 defined('ABSPATH') || exit;
 

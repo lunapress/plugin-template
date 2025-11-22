@@ -8,7 +8,7 @@ use LunaPress\CoreContracts\Plugin\IPluginContext;
 use LunaPress\Core\Hook\Hook;
 use LunaPress\Foundation\Subscriber\AbstractActionSubscriber;
 use LunaPress\FrontendContracts\Vite\IViteConfig;
-use LunaPress\Wp\AssetsContracts\IAssetDependency;
+use LunaPress\Wp\AssetsContracts\Entity\IAssetDependency;
 
 defined('ABSPATH') || exit;
 

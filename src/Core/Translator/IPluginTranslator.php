@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate\Core\Translator;
 
-use LunaPress\Wp\I18n\Support\Attribute\Domain;
-use LunaPress\Wp\I18nContracts\Translator\ITranslator;
+use LunaPress\Wp\I18n\Attribute\Domain;
+use LunaPress\Wp\I18nContracts\Service\Translator\ITranslator;
 
 defined('ABSPATH') || exit;
 
