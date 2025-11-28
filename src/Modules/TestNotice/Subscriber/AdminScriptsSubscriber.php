@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\PluginTemplate\Modules\TestNotice\Subscribers;
+namespace LunaPress\PluginTemplate\Modules\TestNotice\Subscriber;
 
 use LunaPress\Core\Hook\Hook;
 use LunaPress\Foundation\Subscriber\AbstractActionSubscriber;
 use LunaPress\Frontend\Modules\Vite\Entity\WpViteEntryPoint;
 use LunaPress\FrontendContracts\Vite\IViteAssetsLoader;
-use LunaPress\PluginTemplate\Modules\TestNotice\Constants\AssetHandle;
+use LunaPress\PluginTemplate\Modules\TestNotice\Constant\AssetHandle;
 
 defined('ABSPATH') || exit;
 

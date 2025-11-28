@@ -33,9 +33,14 @@
     "config": {
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "platform": {
+            "php": "8.3"
         }
     },
     "scripts": {
+        "i18n:make-pot": "lunapress i18n:make-pot",
+
         "fix:phpcs": "lunapress-static-analysis phpcbf",
         "check:phpcs": "lunapress-static-analysis phpcs",
         "check:psalm": "lunapress-static-analysis psalm -- --no-cache",
