@@ -14,6 +14,9 @@ importers:
       '@eslint/js':
         specifier: 9.38.0
         version: 9.38.0
+      '@lunapress/config':
+        specifier: ^0.0.1
+        version: 0.0.1
       '@lunapress/rollup-plugin-wp':
         specifier: dev
         version: 0.0.0-dev-20251118180025(rollup@4.53.2)(vite@7.1.12(@types/node@24.9.1))
@@ -391,6 +394,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
+  '@lunapress/config@0.0.1':
+    resolution: {integrity: sha512-uXQ1d4LLX53jUXWf0BL210hkuJwh3sB/07u/fmYzLyGEt1MwA6UfIfMYsXZZA6g21cP5fzShC1/dnus12MW8yw==}
 
   '@lunapress/rollup-plugin-external@0.0.0-dev-20251118180025':
     resolution: {integrity: sha512-tauK2dNvT06ZyAup7aLviqXUUZuG1Llp9MzrwtEXUwfIHjDa+9y3Dk/W3krzAo1NlmWms0AfqTa5cuXIdtKR8w==}
@@ -1748,6 +1754,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  '@lunapress/config@0.0.1': {}
 
   '@lunapress/rollup-plugin-external@0.0.0-dev-20251118180025(rollup@4.53.2)':
     dependencies:

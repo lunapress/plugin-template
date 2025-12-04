@@ -2686,12 +2686,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/cli.git",
-                "reference": "03e5ec4e85253a1425cdad8cde197255e2b4b6e4"
+                "reference": "2a9df2663e33f16f04713a3e0bdcdd4b8e99b88e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/cli/zipball/03e5ec4e85253a1425cdad8cde197255e2b4b6e4",
-                "reference": "03e5ec4e85253a1425cdad8cde197255e2b4b6e4",
+                "url": "https://api.github.com/repos/lunapress/cli/zipball/2a9df2663e33f16f04713a3e0bdcdd4b8e99b88e",
+                "reference": "2a9df2663e33f16f04713a3e0bdcdd4b8e99b88e",
                 "shasum": ""
             },
             "require": {
@@ -2737,7 +2737,7 @@
                 "issues": "https://github.com/lunapress/cli/issues",
                 "source": "https://github.com/lunapress/cli/tree/main"
             },
-            "time": "2025-11-28T02:57:40+00:00"
+            "time": "2025-11-28T19:28:30+00:00"
         },
         {
             "name": "lunapress/coding-standards",
@@ -3772,16 +3772,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "2.2.8",
+            "version": "2.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "303aa811649ccd1d32e51e62d5c85949d01b5f1b"
+                "reference": "0b8e49ec234877b83244d2ecd0df7a4c16471f05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/303aa811649ccd1d32e51e62d5c85949d01b5f1b",
-                "reference": "303aa811649ccd1d32e51e62d5c85949d01b5f1b",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/0b8e49ec234877b83244d2ecd0df7a4c16471f05",
+                "reference": "0b8e49ec234877b83244d2ecd0df7a4c16471f05",
                 "shasum": ""
             },
             "require": {
@@ -3820,7 +3820,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/2.2.8"
+                "source": "https://github.com/rectorphp/rector/tree/2.2.9"
             },
             "funding": [
                 {
@@ -3828,7 +3828,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-12T18:38:00+00:00"
+            "time": "2025-11-28T14:21:22+00:00"
         },
         {
             "name": "revolt/event-loop",

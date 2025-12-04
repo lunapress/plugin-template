@@ -34,7 +34,8 @@
         "typescript": "5.9.3",
         "typescript-eslint": "8.46.2",
         "vite": "7.1.12",
-        "@lunapress/rollup-plugin-wp": "dev"
+        "@lunapress/rollup-plugin-wp": "dev",
+        "@lunapress/config": "^0.0.1"
     },
     "pnpm": {
         "supportedArchitectures": {
