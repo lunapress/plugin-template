@@ -7,6 +7,6 @@ use LunaPress\Wp\I18n\Service\Translator\Translator;
 
 defined('ABSPATH') || exit;
 
-final class PluginTranslator extends Translator implements IPluginTranslator
+final readonly class PluginTranslator extends Translator implements IPluginTranslator
 {
 }

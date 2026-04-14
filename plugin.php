@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Wp Plugin Template
- * Description:
+ * Description: Desc
  * Version: 1.0
  * Author: LunaPress
  * Author URI: https://onepix.net/
