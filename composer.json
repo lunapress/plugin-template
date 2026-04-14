@@ -28,7 +28,7 @@
     },
     "require-dev": {
         "lunapress/static-analysis": "@dev",
-        "lunapress/cli": "@dev"
+        "lunapress/cli": "dev-nightly"
     },
     "config": {
         "allow-plugins": {

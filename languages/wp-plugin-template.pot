@@ -1,0 +1,57 @@
+# Copyright (C) 2026 LunaPress
+# This file is distributed under the same license as the Wp Plugin Template plugin.
+#
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2026-04-14T17:55:39+00:00\n"
+"Project-Id-Version: Wp Plugin Template 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-plugin-template\n"
+"X-Domain: wp-plugin-template\n"
+"X-Generator: LunaPress CLI 8f862bb\n"
+
+#. Plugin Name of the plugin
+#: plugin.php:3
+msgid "Wp Plugin Template"
+msgstr ""
+
+#. Description of the plugin
+#: plugin.php:4
+msgid "Desc"
+msgstr ""
+
+#. Author of the plugin
+#: plugin.php:6
+msgid "LunaPress"
+msgstr ""
+
+#. Author URI of the plugin
+#: plugin.php:7
+msgid "https://onepix.net/"
+msgstr ""
+
+#: src/Modules/TestNotice/Service/ExampleService.php:19
+msgid "Example Service"
+msgstr ""
+
+#: templates/notices/example.php:15
+msgid "Example TemplateManager"
+msgstr ""
+
+#: templates/notices/example.php:16
+msgid "The template has been successfully connected"
+msgstr ""
+
+#: templates/notices/example.php:17
+msgid "Plugin path:"
+msgstr ""
+
+#: assets/dist/vite/assets/index-BUIjIiDb.js
+#: frontend/src/modules/TestNotice/ui/Notice/Notice.tsx:6
+msgid "Vite Block TestNotice"
+msgstr ""

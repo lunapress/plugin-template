@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c44b3e89e87fec13fb55ad9ebb48ddda",
+    "content-hash": "f681bc5578fbd3bcf37e6e78575e4223",
     "packages": [
         {
             "name": "laravel/serializable-closure",
@@ -2546,12 +2546,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/cli.git",
-                "reference": "2e445e50ff5c2fb9e0d4a598974358decd4a8e06"
+                "reference": "57a8575234a59b7d4e5b6fa849499a8f0a12bddb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/cli/zipball/2e445e50ff5c2fb9e0d4a598974358decd4a8e06",
-                "reference": "2e445e50ff5c2fb9e0d4a598974358decd4a8e06",
+                "url": "https://api.github.com/repos/lunapress/cli/zipball/57a8575234a59b7d4e5b6fa849499a8f0a12bddb",
+                "reference": "57a8575234a59b7d4e5b6fa849499a8f0a12bddb",
                 "shasum": ""
             },
             "require": {
@@ -2584,7 +2584,7 @@
                 "issues": "https://github.com/lunapress/cli/issues",
                 "source": "https://github.com/lunapress/cli/tree/nightly"
             },
-            "time": "2026-04-14T16:32:37+00:00"
+            "time": "2026-04-14T17:53:36+00:00"
         },
         {
             "name": "lunapress/coding-standards",
