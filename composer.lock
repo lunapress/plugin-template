@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f681bc5578fbd3bcf37e6e78575e4223",
+    "content-hash": "825fcc356ebd4a3818d87c0fa829bd46",
     "packages": [
         {
             "name": "laravel/serializable-closure",
@@ -69,7 +69,7 @@
         },
         {
             "name": "lunapress/core",
-            "version": "dev-main",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/core.git",
@@ -86,7 +86,6 @@
                 "lunapress/foundation": "@dev",
                 "php": "^8.3"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -109,7 +108,7 @@
             "description": "Core for plugins and wrappers",
             "support": {
                 "issues": "https://github.com/lunapress/core/issues",
-                "source": "https://github.com/lunapress/core/tree/main"
+                "source": "https://github.com/lunapress/core/tree/v0.1.0"
             },
             "time": "2025-11-20T21:17:12+00:00"
         },
@@ -160,7 +159,7 @@
         },
         {
             "name": "lunapress/foundation",
-            "version": "dev-main",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/foundation.git",
@@ -176,7 +175,6 @@
                 "lunapress/foundation-contracts": "@dev",
                 "php": "^8.3"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -202,7 +200,7 @@
             "description": "Shared ecosystem interfaces",
             "support": {
                 "issues": "https://github.com/lunapress/foundation/issues",
-                "source": "https://github.com/lunapress/foundation/tree/main"
+                "source": "https://github.com/lunapress/foundation/tree/v0.1.0"
             },
             "time": "2025-11-18T15:06:41+00:00"
         },
@@ -253,7 +251,7 @@
         },
         {
             "name": "lunapress/frontend",
-            "version": "dev-main",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/frontend.git",
@@ -277,7 +275,6 @@
                 "lunapress/core": "Required to enable core functionality",
                 "lunapress/wp-assets": "Required for WordPress asset management"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -300,7 +297,7 @@
             "description": "Package for Vite Frontend",
             "support": {
                 "issues": "https://github.com/lunapress/frontend/issues",
-                "source": "https://github.com/lunapress/frontend/tree/main"
+                "source": "https://github.com/lunapress/frontend/tree/v0.1.0"
             },
             "time": "2026-04-14T16:32:28+00:00"
         },
@@ -351,7 +348,7 @@
         },
         {
             "name": "lunapress/frontend-kit",
-            "version": "dev-main",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/frontend-kit.git",
@@ -370,7 +367,6 @@
                 "php": "^8.3",
                 "psr/container": "^2"
             },
-            "default-branch": true,
             "type": "metapackage",
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
@@ -388,13 +384,13 @@
             "description": "Complete frontend package with required LunaPress implementations",
             "support": {
                 "issues": "https://github.com/lunapress/frontend-kit/issues",
-                "source": "https://github.com/lunapress/frontend-kit/tree/main"
+                "source": "https://github.com/lunapress/frontend-kit/tree/v0.1.0"
             },
             "time": "2025-10-19T20:40:46+00:00"
         },
         {
             "name": "lunapress/php-di-adapter",
-            "version": "dev-main",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/php-di-adapter.git",
@@ -411,7 +407,6 @@
                 "php": "^8.3",
                 "php-di/php-di": "^7.1"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -434,13 +429,13 @@
             "description": "Adapter package that integrates PHP-DI as the dependency injection implementation",
             "support": {
                 "issues": "https://github.com/lunapress/php-di-adapter/issues",
-                "source": "https://github.com/lunapress/php-di-adapter/tree/main"
+                "source": "https://github.com/lunapress/php-di-adapter/tree/v0.1.0"
             },
             "time": "2025-10-15T23:44:53+00:00"
         },
         {
             "name": "lunapress/wp-assets",
-            "version": "dev-main",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/wp-assets.git",
@@ -459,7 +454,6 @@
                 "php": "^8.3",
                 "psr/container": "^2"
             },
-            "default-branch": true,
             "type": "lunapress-service-package",
             "extra": {
                 "lunapress": {
@@ -486,7 +480,7 @@
             ],
             "description": "Wrapper for WP functions",
             "support": {
-                "source": "https://github.com/lunapress/wp-assets/tree/main"
+                "source": "https://github.com/lunapress/wp-assets/tree/v0.1.0"
             },
             "time": "2025-11-22T19:39:33+00:00"
         },
@@ -536,7 +530,7 @@
         },
         {
             "name": "lunapress/wp-i18n",
-            "version": "dev-main",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/wp-i18n.git",
@@ -555,7 +549,6 @@
                 "php": "^8.3",
                 "psr/container": "^2"
             },
-            "default-branch": true,
             "type": "lunapress-service-package",
             "extra": {
                 "lunapress": {
@@ -583,7 +576,7 @@
             "description": "Wrapper for WP functions",
             "support": {
                 "issues": "https://github.com/lunapress/wp-i18n/issues",
-                "source": "https://github.com/lunapress/wp-i18n/tree/main"
+                "source": "https://github.com/lunapress/wp-i18n/tree/v0.1.0"
             },
             "time": "2026-04-14T16:28:52+00:00"
         },
@@ -1631,6 +1624,19 @@
             "time": "2024-08-03T19:31:26+00:00"
         },
         {
+            "name": "brianhenryie/strauss-phar",
+            "version": "0.27.0",
+            "dist": {
+                "type": "file",
+                "url": "https://github.com/BrianHenryIE/strauss/releases/download/0.27.0/strauss.phar",
+                "shasum": "437c9a43cafbd60eeb22d09f83d1fcd939140c00"
+            },
+            "bin": [
+                "strauss.phar"
+            ],
+            "type": "library"
+        },
+        {
             "name": "composer/pcre",
             "version": "3.3.2",
             "source": {
@@ -2546,15 +2552,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/cli.git",
-                "reference": "57a8575234a59b7d4e5b6fa849499a8f0a12bddb"
+                "reference": "30ffc4f4246615864b1e774d08c67dffa772024b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/cli/zipball/57a8575234a59b7d4e5b6fa849499a8f0a12bddb",
-                "reference": "57a8575234a59b7d4e5b6fa849499a8f0a12bddb",
+                "url": "https://api.github.com/repos/lunapress/cli/zipball/30ffc4f4246615864b1e774d08c67dffa772024b",
+                "reference": "30ffc4f4246615864b1e774d08c67dffa772024b",
                 "shasum": ""
             },
             "require": {
+                "brianhenryie/strauss-phar": "0.27.0",
                 "php": "^8.3",
                 "phpstan/phpstan": "^2.1.32"
             },
@@ -2584,7 +2591,7 @@
                 "issues": "https://github.com/lunapress/cli/issues",
                 "source": "https://github.com/lunapress/cli/tree/nightly"
             },
-            "time": "2026-04-14T17:53:36+00:00"
+            "time": "2026-04-15T17:26:56+00:00"
         },
         {
             "name": "lunapress/coding-standards",
@@ -2592,12 +2599,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/coding-standards.git",
-                "reference": "03df443ac70d012d3a4532246d702b5689625239"
+                "reference": "28f40f73048dd6160cb8fcd2d02eb49d0de6b91c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/coding-standards/zipball/03df443ac70d012d3a4532246d702b5689625239",
-                "reference": "03df443ac70d012d3a4532246d702b5689625239",
+                "url": "https://api.github.com/repos/lunapress/coding-standards/zipball/28f40f73048dd6160cb8fcd2d02eb49d0de6b91c",
+                "reference": "28f40f73048dd6160cb8fcd2d02eb49d0de6b91c",
                 "shasum": ""
             },
             "require": {
@@ -2644,7 +2651,7 @@
                 "issues": "https://github.com/lunapress/coding-standards/issues",
                 "source": "https://github.com/lunapress/coding-standards/tree/main"
             },
-            "time": "2025-11-20T20:04:28+00:00"
+            "time": "2026-04-15T13:48:28+00:00"
         },
         {
             "name": "lunapress/static-analysis",
@@ -4147,7 +4154,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -4206,7 +4213,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -4230,7 +4237,7 @@
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
@@ -4288,7 +4295,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -4312,7 +4319,7 @@
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -4373,7 +4380,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -4397,7 +4404,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -4458,7 +4465,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.36.0"
             },
             "funding": [
                 {

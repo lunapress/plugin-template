@@ -19,7 +19,14 @@ declare(strict_types=1);
 use LunaPress\PhpDiAdapter\PhpDiContainerBuilder;
 use LunaPress\PluginTemplate\TemplatePlugin;
 
-require_once __DIR__ . '/vendor/autoload.php';
+$prefixedAutoload = __DIR__ . '/vendor-prefixed/autoload.php';
+$vendorAutoload   = __DIR__ . '/vendor/autoload.php';
+
+if (file_exists($prefixedAutoload)) {
+    require_once $prefixedAutoload;
+} else {
+    require_once $vendorAutoload;
+}
 
 TemplatePlugin::getInstance()
     ->setContainerBuilder(
