@@ -58,6 +58,7 @@
     "scripts": {
         "i18n:make-pot": "lunapress i18n:make-pot",
         "vendor:prefix": "lunapress vendor:prefix",
+        "build:archive": "lunapress build:archive",
 
         "fix:phpcs": "lunapress-static-analysis phpcbf",
         "check:phpcs": "lunapress-static-analysis phpcs",

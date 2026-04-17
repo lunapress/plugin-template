@@ -17,3 +17,5 @@ composer.phar
 cache
 
 assets/dist
+
+build
