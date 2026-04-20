@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "825fcc356ebd4a3818d87c0fa829bd46",
+    "content-hash": "f681bc5578fbd3bcf37e6e78575e4223",
     "packages": [
         {
             "name": "laravel/serializable-closure",
@@ -1466,16 +1466,16 @@
         },
         {
             "name": "amphp/socket",
-            "version": "v2.3.1",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/socket.git",
-                "reference": "58e0422221825b79681b72c50c47a930be7bf1e1"
+                "reference": "dadb63c5d3179fd83803e29dfeac27350e619314"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amphp/socket/zipball/58e0422221825b79681b72c50c47a930be7bf1e1",
-                "reference": "58e0422221825b79681b72c50c47a930be7bf1e1",
+                "url": "https://api.github.com/repos/amphp/socket/zipball/dadb63c5d3179fd83803e29dfeac27350e619314",
+                "reference": "dadb63c5d3179fd83803e29dfeac27350e619314",
                 "shasum": ""
             },
             "require": {
@@ -1484,17 +1484,17 @@
                 "amphp/dns": "^2",
                 "ext-openssl": "*",
                 "kelunik/certificate": "^1.1",
-                "league/uri": "^6.5 | ^7",
-                "league/uri-interfaces": "^2.3 | ^7",
+                "league/uri": "^7",
+                "league/uri-interfaces": "^7",
                 "php": ">=8.1",
-                "revolt/event-loop": "^1 || ^0.2"
+                "revolt/event-loop": "^1"
             },
             "require-dev": {
                 "amphp/php-cs-fixer-config": "^2",
                 "amphp/phpunit-util": "^3",
                 "amphp/process": "^2",
                 "phpunit/phpunit": "^9",
-                "psalm/phar": "5.20"
+                "psalm/phar": "6.16.1"
             },
             "type": "library",
             "autoload": {
@@ -1538,7 +1538,7 @@
             ],
             "support": {
                 "issues": "https://github.com/amphp/socket/issues",
-                "source": "https://github.com/amphp/socket/tree/v2.3.1"
+                "source": "https://github.com/amphp/socket/tree/v2.4.0"
             },
             "funding": [
                 {
@@ -1546,7 +1546,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-21T14:33:03+00:00"
+            "time": "2026-04-19T15:09:56+00:00"
         },
         {
             "name": "amphp/sync",
@@ -1622,19 +1622,6 @@
                 }
             ],
             "time": "2024-08-03T19:31:26+00:00"
-        },
-        {
-            "name": "brianhenryie/strauss-phar",
-            "version": "0.27.0",
-            "dist": {
-                "type": "file",
-                "url": "https://github.com/BrianHenryIE/strauss/releases/download/0.27.0/strauss.phar",
-                "shasum": "437c9a43cafbd60eeb22d09f83d1fcd939140c00"
-            },
-            "bin": [
-                "strauss.phar"
-            ],
-            "type": "library"
         },
         {
             "name": "composer/pcre",
@@ -2552,21 +2539,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/cli.git",
-                "reference": "20b65e132b9b79d1f55aa8bc6c470c60746bf51c"
+                "reference": "cda8431fa594bd896660e7003fa56202a0c2accd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/cli/zipball/20b65e132b9b79d1f55aa8bc6c470c60746bf51c",
-                "reference": "20b65e132b9b79d1f55aa8bc6c470c60746bf51c",
+                "url": "https://api.github.com/repos/lunapress/cli/zipball/cda8431fa594bd896660e7003fa56202a0c2accd",
+                "reference": "cda8431fa594bd896660e7003fa56202a0c2accd",
                 "shasum": ""
             },
             "require": {
-                "brianhenryie/strauss-phar": "0.27.0",
+                "ext-json": "*",
                 "ext-zip": "*",
                 "php": "^8.3",
                 "phpstan/phpstan": "^2.1.32"
             },
             "bin": [
+                "bin/strauss.phar",
                 "bin/lunapress.phar",
                 "bin/lunapress"
             ],
@@ -2592,7 +2580,7 @@
                 "issues": "https://github.com/lunapress/cli/issues",
                 "source": "https://github.com/lunapress/cli/tree/nightly"
             },
-            "time": "2026-04-17T21:10:01+00:00"
+            "time": "2026-04-20T17:49:00+00:00"
         },
         {
             "name": "lunapress/coding-standards",
