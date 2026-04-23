@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate;
@@ -6,8 +7,6 @@ namespace LunaPress\PluginTemplate;
 use LunaPress\Core\Plugin\AbstractPlugin;
 use LunaPress\Frontend\FrontendPackage;
 use LunaPress\PluginTemplate\Modules\TestNotice\TestNoticeModule;
-
-defined('ABSPATH') || exit;
 
 final class TemplatePlugin extends AbstractPlugin
 {

@@ -1,11 +1,10 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate\Modules\TestNotice\Service;
 
 use LunaPress\PluginTemplate\Core\Translator\IPluginTranslator;
-
-defined('ABSPATH') || exit;
 
 final readonly class ExampleService
 {

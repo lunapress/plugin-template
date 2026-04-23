@@ -18,16 +18,16 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": false,
     "require": {
         "php": "^8.3",
-        "lunapress/core": "@dev",
-        "lunapress/frontend-kit": "@dev",
-        "lunapress/php-di-adapter": "@dev",
-        "lunapress/wp-i18n": "@dev"
+        "lunapress/core": "dev-main",
+        "lunapress/frontend-kit": "dev-main",
+        "lunapress/php-di-adapter": "dev-main",
+        "lunapress/wp-i18n": "dev-main"
     },
     "require-dev": {
-        "lunapress/static-analysis": "@dev",
+        "lunapress/static-analysis": "dev-main",
         "lunapress/cli": "dev-nightly"
     },
     "config": {

@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate\Core\View;
@@ -6,8 +7,6 @@ namespace LunaPress\PluginTemplate\Core\View;
 use LunaPress\CoreContracts\Plugin\IConfig;
 use LunaPress\FoundationContracts\View\ITemplateContextProvider;
 use LunaPress\PluginTemplate\Core\Translator\IPluginTranslator;
-
-defined('ABSPATH') || exit;
 
 final readonly class TemplateContextProvider implements ITemplateContextProvider
 {
@@ -17,6 +16,9 @@ final readonly class TemplateContextProvider implements ITemplateContextProvider
     ) {
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getContext(): array
     {
         return [

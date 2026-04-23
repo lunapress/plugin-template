@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate\Modules\TestNotice\Subscriber;
@@ -6,8 +7,6 @@ namespace LunaPress\PluginTemplate\Modules\TestNotice\Subscriber;
 use LunaPress\Core\Hook\Hook;
 use LunaPress\Foundation\Subscriber\AbstractActionSubscriber;
 use LunaPress\FoundationContracts\View\ITemplateManager;
-
-defined('ABSPATH') || exit;
 
 #[Hook('admin_notices', priority: 20, args: 0)]
 final readonly class TemplateTestSubscriber extends AbstractActionSubscriber

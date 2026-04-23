@@ -14,7 +14,10 @@
  *
  * @package LunaPress\WpPluginTemplate
  */
+
 declare(strict_types=1);
+
+defined('ABSPATH') || exit;
 
 use LunaPress\PhpDiAdapter\PhpDiContainerBuilder;
 use LunaPress\PluginTemplate\TemplatePlugin;

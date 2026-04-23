@@ -1,5 +1,8 @@
 <?php
+
 declare(strict_types=1);
+
+defined('ABSPATH') || exit;
 
 use LunaPress\FoundationContracts\View\ITemplateContextProvider;
 use LunaPress\PluginTemplate\Core\Translator\IPluginTranslator;

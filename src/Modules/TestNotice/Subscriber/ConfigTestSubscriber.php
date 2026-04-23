@@ -1,16 +1,15 @@
 <?php
+
 declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate\Modules\TestNotice\Subscriber;
 
+use LunaPress\Core\Hook\Hook;
 use LunaPress\CoreContracts\Plugin\IConfig;
 use LunaPress\CoreContracts\Plugin\IPluginContext;
-use LunaPress\Core\Hook\Hook;
 use LunaPress\Foundation\Subscriber\AbstractActionSubscriber;
 use LunaPress\FrontendContracts\Vite\IViteConfig;
-use LunaPress\Wp\AssetsContracts\Entity\IAssetDependency;
-
-defined('ABSPATH') || exit;
+use function error_log;
 
 #[Hook('plugins_loaded', priority: 20, args: 0)]
 final readonly class ConfigTestSubscriber extends AbstractActionSubscriber
@@ -19,7 +18,6 @@ final readonly class ConfigTestSubscriber extends AbstractActionSubscriber
         private IPluginContext $context,
         private IConfig $config,
         private IViteConfig $viteConfig,
-        private IAssetDependency $assetDependency,
     ) {
     }
 
@@ -30,6 +28,5 @@ final readonly class ConfigTestSubscriber extends AbstractActionSubscriber
         error_log($this->config->getPluginPath());
         error_log($this->config->getPluginVersion());
         error_log($this->viteConfig->getBuildVitePath());
-        error_log($this->assetDependency::class);
     }
 }
