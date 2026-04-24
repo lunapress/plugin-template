@@ -6,15 +6,15 @@ namespace LunaPress\PluginTemplate\Modules\TestNotice\Subscriber;
 
 use LunaPress\Core\Hook\Hook;
 use LunaPress\Foundation\Subscriber\AbstractActionSubscriber;
-use LunaPress\Frontend\Modules\Vite\DTO\WpViteEntryPoint;
-use LunaPress\FrontendContracts\Vite\IViteAssetsLoader;
+use LunaPress\FrontendContracts\Vite\DTO\ViteAsset;
+use LunaPress\FrontendContracts\Vite\ViteAssetsLoader;
 use LunaPress\PluginTemplate\Modules\TestNotice\Constant\AssetHandle;
 
 #[Hook('admin_enqueue_scripts')]
 final readonly class AdminScriptsSubscriber extends AbstractActionSubscriber
 {
     public function __construct(
-        private IViteAssetsLoader $loader,
+        private ViteAssetsLoader $loader,
     ) {
     }
 
@@ -22,7 +22,7 @@ final readonly class AdminScriptsSubscriber extends AbstractActionSubscriber
     {
         $this->loader->connect(
             [
-                new WpViteEntryPoint(AssetHandle::TEST_NOTICE->value),
+                new ViteAsset(AssetHandle::TEST_NOTICE),
             ],
             isAdmin: true,
         );

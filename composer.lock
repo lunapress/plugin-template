@@ -74,12 +74,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/core.git",
-                "reference": "8f96b6349c9ade18994e46e5c0645db775b10950"
+                "reference": "b4156d736a835fecb38b435665df26bb6ee76323"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/core/zipball/8f96b6349c9ade18994e46e5c0645db775b10950",
-                "reference": "8f96b6349c9ade18994e46e5c0645db775b10950",
+                "url": "https://api.github.com/repos/lunapress/core/zipball/b4156d736a835fecb38b435665df26bb6ee76323",
+                "reference": "b4156d736a835fecb38b435665df26bb6ee76323",
                 "shasum": ""
             },
             "require": {
@@ -112,7 +112,7 @@
                 "issues": "https://github.com/lunapress/core/issues",
                 "source": "https://github.com/lunapress/core/tree/main"
             },
-            "time": "2026-04-23T19:58:33+00:00"
+            "time": "2026-04-24T19:38:30+00:00"
         },
         {
             "name": "lunapress/core-contracts",
@@ -120,12 +120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/core-contracts.git",
-                "reference": "d187860798874a8444f9052ec8eba72aa2353bcd"
+                "reference": "ed986bb065226c27342c2119b8a0bf36b6c91d5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/core-contracts/zipball/d187860798874a8444f9052ec8eba72aa2353bcd",
-                "reference": "d187860798874a8444f9052ec8eba72aa2353bcd",
+                "url": "https://api.github.com/repos/lunapress/core-contracts/zipball/ed986bb065226c27342c2119b8a0bf36b6c91d5d",
+                "reference": "ed986bb065226c27342c2119b8a0bf36b6c91d5d",
                 "shasum": ""
             },
             "require": {
@@ -157,7 +157,7 @@
                 "issues": "https://github.com/lunapress/core-contracts/issues",
                 "source": "https://github.com/lunapress/core-contracts/tree/main"
             },
-            "time": "2026-04-21T14:40:22+00:00"
+            "time": "2026-04-24T10:43:02+00:00"
         },
         {
             "name": "lunapress/foundation",
@@ -165,12 +165,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/foundation.git",
-                "reference": "f5f427c886b087416891a85bd9ec9b958168cbb3"
+                "reference": "887ea41e77f7e56b6f6a7f282116f9d897e3d895"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/foundation/zipball/f5f427c886b087416891a85bd9ec9b958168cbb3",
-                "reference": "f5f427c886b087416891a85bd9ec9b958168cbb3",
+                "url": "https://api.github.com/repos/lunapress/foundation/zipball/887ea41e77f7e56b6f6a7f282116f9d897e3d895",
+                "reference": "887ea41e77f7e56b6f6a7f282116f9d897e3d895",
                 "shasum": ""
             },
             "require": {
@@ -205,7 +205,7 @@
                 "issues": "https://github.com/lunapress/foundation/issues",
                 "source": "https://github.com/lunapress/foundation/tree/main"
             },
-            "time": "2026-04-23T19:58:35+00:00"
+            "time": "2026-04-24T19:38:27+00:00"
         },
         {
             "name": "lunapress/foundation-contracts",
@@ -213,12 +213,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/foundation-contracts.git",
-                "reference": "3924fe3f50be6daa06649e678990aa17db5c2191"
+                "reference": "4fdd9affebb63f45ad889ab953fbed85fe9e78a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/foundation-contracts/zipball/3924fe3f50be6daa06649e678990aa17db5c2191",
-                "reference": "3924fe3f50be6daa06649e678990aa17db5c2191",
+                "url": "https://api.github.com/repos/lunapress/foundation-contracts/zipball/4fdd9affebb63f45ad889ab953fbed85fe9e78a9",
+                "reference": "4fdd9affebb63f45ad889ab953fbed85fe9e78a9",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +250,7 @@
                 "issues": "https://github.com/lunapress/foundation-contracts/issues",
                 "source": "https://github.com/lunapress/foundation-contracts/tree/main"
             },
-            "time": "2026-04-23T18:58:05+00:00"
+            "time": "2026-04-24T19:37:04+00:00"
         },
         {
             "name": "lunapress/frontend",
@@ -258,12 +258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/frontend.git",
-                "reference": "29c0a6fcaee89797d4ceb01d48df7dc4b508501b"
+                "reference": "9c54ba372369ecf65b367ced2ee3caf79d1954d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/frontend/zipball/29c0a6fcaee89797d4ceb01d48df7dc4b508501b",
-                "reference": "29c0a6fcaee89797d4ceb01d48df7dc4b508501b",
+                "url": "https://api.github.com/repos/lunapress/frontend/zipball/9c54ba372369ecf65b367ced2ee3caf79d1954d8",
+                "reference": "9c54ba372369ecf65b367ced2ee3caf79d1954d8",
                 "shasum": ""
             },
             "require": {
@@ -303,7 +303,7 @@
                 "issues": "https://github.com/lunapress/frontend/issues",
                 "source": "https://github.com/lunapress/frontend/tree/main"
             },
-            "time": "2026-04-23T20:22:06+00:00"
+            "time": "2026-04-24T19:42:54+00:00"
         },
         {
             "name": "lunapress/frontend-contracts",
@@ -311,12 +311,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/frontend-contracts.git",
-                "reference": "5b01cbeaa0a816f10d10ca986623a1ab68839452"
+                "reference": "598f48460231801efda1bf3454aaff1084241d8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/frontend-contracts/zipball/5b01cbeaa0a816f10d10ca986623a1ab68839452",
-                "reference": "5b01cbeaa0a816f10d10ca986623a1ab68839452",
+                "url": "https://api.github.com/repos/lunapress/frontend-contracts/zipball/598f48460231801efda1bf3454aaff1084241d8b",
+                "reference": "598f48460231801efda1bf3454aaff1084241d8b",
                 "shasum": ""
             },
             "require": {
@@ -348,7 +348,7 @@
                 "issues": "https://github.com/lunapress/frontend-contracts/issues",
                 "source": "https://github.com/lunapress/frontend-contracts/tree/main"
             },
-            "time": "2026-04-23T19:48:57+00:00"
+            "time": "2026-04-24T19:05:34+00:00"
         },
         {
             "name": "lunapress/frontend-kit",
@@ -399,12 +399,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/php-di-adapter.git",
-                "reference": "1a33b64e51c97d8176cad0d04ceefc4c48c15cbc"
+                "reference": "3f432591affea013b139041a5a887e0953150005"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/php-di-adapter/zipball/1a33b64e51c97d8176cad0d04ceefc4c48c15cbc",
-                "reference": "1a33b64e51c97d8176cad0d04ceefc4c48c15cbc",
+                "url": "https://api.github.com/repos/lunapress/php-di-adapter/zipball/3f432591affea013b139041a5a887e0953150005",
+                "reference": "3f432591affea013b139041a5a887e0953150005",
                 "shasum": ""
             },
             "require": {
@@ -437,7 +437,7 @@
                 "issues": "https://github.com/lunapress/php-di-adapter/issues",
                 "source": "https://github.com/lunapress/php-di-adapter/tree/main"
             },
-            "time": "2026-04-23T19:58:36+00:00"
+            "time": "2026-04-24T18:34:42+00:00"
         },
         {
             "name": "lunapress/wp-assets",
@@ -445,12 +445,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/wp-assets.git",
-                "reference": "23d2346fb732fede951e914247837a22339e61c1"
+                "reference": "1ecb1b06b86462884560fa7dc536f3442e9464b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/wp-assets/zipball/23d2346fb732fede951e914247837a22339e61c1",
-                "reference": "23d2346fb732fede951e914247837a22339e61c1",
+                "url": "https://api.github.com/repos/lunapress/wp-assets/zipball/1ecb1b06b86462884560fa7dc536f3442e9464b8",
+                "reference": "1ecb1b06b86462884560fa7dc536f3442e9464b8",
                 "shasum": ""
             },
             "require": {
@@ -489,7 +489,7 @@
             "support": {
                 "source": "https://github.com/lunapress/wp-assets/tree/main"
             },
-            "time": "2026-04-23T20:18:13+00:00"
+            "time": "2026-04-24T18:34:47+00:00"
         },
         {
             "name": "lunapress/wp-assets-contracts",
@@ -497,12 +497,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/wp-assets-contracts.git",
-                "reference": "88345ec641767c8dc3ce7d016666e26ed5f0253d"
+                "reference": "cc3548fb2d5198f87b8eb92b3afceba4c92e2d5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/wp-assets-contracts/zipball/88345ec641767c8dc3ce7d016666e26ed5f0253d",
-                "reference": "88345ec641767c8dc3ce7d016666e26ed5f0253d",
+                "url": "https://api.github.com/repos/lunapress/wp-assets-contracts/zipball/cc3548fb2d5198f87b8eb92b3afceba4c92e2d5a",
+                "reference": "cc3548fb2d5198f87b8eb92b3afceba4c92e2d5a",
                 "shasum": ""
             },
             "require": {
@@ -533,7 +533,7 @@
             "support": {
                 "source": "https://github.com/lunapress/wp-assets-contracts/tree/main"
             },
-            "time": "2026-04-23T19:36:35+00:00"
+            "time": "2026-04-24T10:23:59+00:00"
         },
         {
             "name": "lunapress/wp-i18n",
@@ -541,12 +541,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/wp-i18n.git",
-                "reference": "e53b4c8b4e0cde3b9c513afb0631fb9e2a983daf"
+                "reference": "a4ac05e0731bc286fd8d248c11f028c7962efc60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/wp-i18n/zipball/e53b4c8b4e0cde3b9c513afb0631fb9e2a983daf",
-                "reference": "e53b4c8b4e0cde3b9c513afb0631fb9e2a983daf",
+                "url": "https://api.github.com/repos/lunapress/wp-i18n/zipball/a4ac05e0731bc286fd8d248c11f028c7962efc60",
+                "reference": "a4ac05e0731bc286fd8d248c11f028c7962efc60",
                 "shasum": ""
             },
             "require": {
@@ -586,7 +586,7 @@
                 "issues": "https://github.com/lunapress/wp-i18n/issues",
                 "source": "https://github.com/lunapress/wp-i18n/tree/main"
             },
-            "time": "2026-04-23T19:58:33+00:00"
+            "time": "2026-04-24T19:22:46+00:00"
         },
         {
             "name": "lunapress/wp-i18n-contracts",
@@ -594,12 +594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lunapress/wp-i18n-contracts.git",
-                "reference": "f4cef9ac67eb57bbbb93d320b6690b83397d5c63"
+                "reference": "91766441283766bf56fb3a6e29cc911714334acc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lunapress/wp-i18n-contracts/zipball/f4cef9ac67eb57bbbb93d320b6690b83397d5c63",
-                "reference": "f4cef9ac67eb57bbbb93d320b6690b83397d5c63",
+                "url": "https://api.github.com/repos/lunapress/wp-i18n-contracts/zipball/91766441283766bf56fb3a6e29cc911714334acc",
+                "reference": "91766441283766bf56fb3a6e29cc911714334acc",
                 "shasum": ""
             },
             "require": {
@@ -629,7 +629,7 @@
             "support": {
                 "source": "https://github.com/lunapress/wp-i18n-contracts/tree/main"
             },
-            "time": "2026-04-21T15:25:42+00:00"
+            "time": "2026-04-24T09:18:29+00:00"
         },
         {
             "name": "php-di/invoker",
@@ -3384,8 +3384,8 @@
             "version": "2.2.x-dev",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c5f86c6b88b6704b6f194b3794ac0af2c1b24f28",
-                "reference": "c5f86c6b88b6704b6f194b3794ac0af2c1b24f28",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/5a952ccb686ac2dc3a4f3e596e9a57086bb8e225",
+                "reference": "5a952ccb686ac2dc3a4f3e596e9a57086bb8e225",
                 "shasum": ""
             },
             "require": {
@@ -3442,7 +3442,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-23T18:27:50+00:00"
+            "time": "2026-04-24T17:36:09+00:00"
         },
         {
             "name": "psr/http-factory",

@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 defined('ABSPATH') || exit;
 
-use LunaPress\FoundationContracts\View\ITemplateContextProvider;
-use LunaPress\PluginTemplate\Core\Translator\IPluginTranslator;
+use LunaPress\FoundationContracts\View\TemplateContextProvider;
+use LunaPress\PluginTemplate\Core\Translator\DefaultPluginTranslator;
 use LunaPress\PluginTemplate\Core\Translator\PluginTranslator;
-use LunaPress\PluginTemplate\Core\View\TemplateContextProvider;
+use LunaPress\PluginTemplate\Core\View\ProjectTemplateContextProvider;
 use function LunaPress\Foundation\Container\autowire;
 
 return [
-    ITemplateContextProvider::class => autowire(TemplateContextProvider::class),
+    TemplateContextProvider::class => autowire(ProjectTemplateContextProvider::class),
 
-    IPluginTranslator::class => autowire(PluginTranslator::class),
+    PluginTranslator::class => autowire(DefaultPluginTranslator::class),
 ];

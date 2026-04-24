@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate\Modules\TestNotice\Service;
 
-use LunaPress\PluginTemplate\Core\Translator\IPluginTranslator;
+use LunaPress\PluginTemplate\Core\Translator\PluginTranslator;
 
 final readonly class ExampleService
 {
     public function __construct(
-        private IPluginTranslator $translator,
+        private PluginTranslator $translator,
     ) {
     }
 

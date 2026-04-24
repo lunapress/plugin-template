@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 namespace LunaPress\PluginTemplate\Core\Translator;
 
-use LunaPress\Wp\I18n\Service\Translator\Translator;
+use LunaPress\Wp\I18n\Attribute\Domain;
+use LunaPress\Wp\I18nContracts\Service\Translator\Translator;
 
-final readonly class PluginTranslator extends Translator implements IPluginTranslator
+#[Domain('wp-plugin-template')]
+interface PluginTranslator extends Translator
 {
 }
